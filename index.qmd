@@ -1,11 +1,32 @@
 ---
-title: "cokezie.github.io"
+title: "Chukwubunkem (Chi Chi) Okezie"
+image: profile.png
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:cokezie@macalester.edu
+    - icon: github
+      text: Github
+      href: https://github.com/cokezie
 ---
 
-This is a Quarto website.
+:::{#hero-heading}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Chukwubunkem (Chi Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. Chi Chi is planning to double major in biology and statistics with a minor in sociology. When not studying, Chi Chi enjoys spending time reading, knitting, playing the viola, enjoying nature, and much more! 
 
-```{r}
-1 + 1
-```
+## Education
+
+Macalester College | St. Paul, MN | B.A in Biology | B.A in Statistics | August 2023 - May 2027
+
+## Recent Experiences
+
+Macalester College | Data Entry Specialist | September 2024 - Present
+
+University of Michigan-Flint | Research Assistant | May 2024 - August 2024
+
+:::
