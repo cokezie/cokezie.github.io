@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/SurveyDataCollection/index.html",
+      "/projects/mappingaccessibilitydefects/index.html",
+      "/projects/mappingcodequality/index.html",
+      "/projects/mlanalysis/index.html",
+      "/projects/fractalsProject/index.html",
+      "/projects/dma_project/index.html"
+    ]
+  }
+]

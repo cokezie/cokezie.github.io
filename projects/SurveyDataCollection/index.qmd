@@ -1,0 +1,9 @@
+---
+title: "Survey Data Collection" 
+image: featured.jpg
+categories:
+  - Data Analysis
+about: 
+  template: solana
+  image: featured.jpg
+---

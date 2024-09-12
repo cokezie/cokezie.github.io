@@ -1,0 +1,10 @@
+---
+title: "Mapping Code Quality"
+image: featured.jpg
+categories:
+  - REU / Summer Projects
+  - Collaborative Efforts
+about: 
+  template: solana
+  image: featured.jpg
+---

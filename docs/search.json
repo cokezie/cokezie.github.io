@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Chukwubunkem (Chi Chi) Okezie",
     "section": "",
-    "text": "Chukwubunkem (Chi Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. Chi Chi is planning to double major in biology and statistics with a minor in sociology. When not studying, Chi Chi enjoys spending time reading, knitting, playing the viola, enjoying nature, and much more!\n\n\nMacalester College | St. Paul, MN | B.A in Biology | B.A in Statistics | August 2023 - May 2027\n\n\n\nMacalester College | Data Entry Specialist | September 2024 - Present\nUniversity of Michigan-Flint | Research Assistant | May 2024 - August 2024"
+    "text": "Email\n  \n  \n    \n     Github\n  \n\n  \n  \n\n\nChukwubunkem (Chi Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. Chi Chi is planning to double major in biology and statistics with a minor in sociology. When not studying, Chi Chi enjoys spending time reading, knitting, playing the viola, enjoying nature, and much more!\n\n\n\nMacalester College | St. Paul, MN | B.A in Biology | B.A in Statistics | August 2023 - May 2027\n\n\n\nMacalester College | Data Entry Specialist | September 2024 - Present\nUniversity of Michigan-Flint | Research Assistant | May 2024 - August 2024"
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,40 @@
     "title": "Chukwubunkem (Chi Chi) Okezie",
     "section": "",
     "text": "Macalester College | Data Entry Specialist | September 2024 - Present\nUniversity of Michigan-Flint | Research Assistant | May 2024 - August 2024"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Primarily, my data analysis experiences have been in multiple different areas, with a wide lens focusing on analyzing data for social good.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSurvey Data Collection\n\n\n\nData Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObserving and Organizing Accessibility Defects\n\n\n\nREU / Summer Projects\n\n\nCollaborative Efforts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Code Quality\n\n\n\nREU / Summer Projects\n\n\nCollaborative Efforts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning Analysis\n\n\n\nData Analysis\n\n\nSchool / Fun Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFractal Tree Customization Project\n\n\n\nSchool / Fun Projects\n\n\nCollaborative Efforts\n\n\nPython Coding\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDimention Reduction Analysis Project\n\n\n\nSchool / Fun Projects\n\n\nCollaborative Efforts\n\n\nRStudio Coding\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/dma_project/index.html",
+    "href": "projects/dma_project/index.html",
+    "title": "Dimention Reduction Analysis Project",
+    "section": "",
+    "text": "Within a team of three, we conducted dimensional reduction analysis on a Premier League football (soccer) team. Our goal for this project is to use a classification algorithm to predict whether a Premier League home team will win, lose, or tie their match. We aim for our final model to have a high CV accuracy rate, showing that the model performs similarly well on unseen data as it does using the training data. We made a point not to prioritize a simple, easy-to-interpret model, but instead prioritize a model with higher accuracy. Because of this, we will need to be cognizant of how overfit our model may become to our training data.\nThe final LASSO/Linear Regression classification model incorporated an optimal set of variables and was fine-tuned with LASSO lambda in order to achieve an optimal balance between bias and variance. We conducted a grid search over a range of neighbor values and assessed the model to avoid overfitting. Our final model uses a lambda penalty value of 0.06250552 minimizing variables and utilizing what truly matters in order for us to obtain a final accuracy rate of 82.89%"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Chukwubunkem (Chi Chi) Okezie",
+    "section": "",
+    "text": "Chukwubunkem (Chi Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. Chi Chi is planning to double major in biology and statistics with a minor in sociology. When not studying, Chi Chi enjoys spending time reading, knitting, playing the viola, enjoying nature, and much more!"
+  },
+  {
+    "objectID": "projects/fractalsProject/index.html",
+    "href": "projects/fractalsProject/index.html",
+    "title": "Fractal Tree Customization Project",
+    "section": "",
+    "text": "Overall, our general goal with this project was to to utilize L-systems or Turtles, in order to display the building process of a fractal tree that goes on forever. We wanted to introduce varying colors and a cool pattern in such. A run of the program would create a tree and display it for the observer to look at."
+  },
+  {
+    "objectID": "projects/mlanalysis/index.html",
+    "href": "projects/mlanalysis/index.html",
+    "title": "Machine Learning Analysis",
+    "section": "",
+    "text": "After performing dimension reduction, we have found very valuable information regarding the data set. Firstly I can see how much original data and variability is represented by each principal component by utilizing the table and graph elements below. In this example we would find that 7 principal components are ideal because it would retain approximately 80% cumulatively of the original data This is ideal as it doesn’t sacrifice a lot of the original data but still brings variance that we are looking for. The var column is representative of amount of variability in the original features that is represented by each principal component.\n\n\nWe find that the first 2 principal components are representative of 40% of the variability in the principal components. After analyzing the score plot we find that the valence, loudness, speechiness and energy were all positively correlated to each other. And also that acousticness and danceability were negatively correlated with each other. We also find that energy, danceability and acousticness are well represented as we find that they have the highest magnitude comparatively. Key, mode, and instrumentalness are the lowest represented by the two dimensions. We can also observe that tempo is a really large contributor to Dim1 and time_signiture a large contributor to Dim2. Within the loadings plot above we can see that the later principal components account more for key, mode and instrumentalness which we saw was not represented as well by just simply the first two principal components."
   }
 ]

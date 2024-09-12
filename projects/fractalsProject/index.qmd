@@ -1,0 +1,13 @@
+---
+title: "Fractal Tree Customization Project"
+image: featured.jpg
+categories:
+  - School / Fun Projects
+  - Collaborative Efforts
+  - Python Coding 
+about: 
+  template: solana
+  image: featured.jpg
+---
+
+Overall, our general goal with this project was to  to utilize L-systems or Turtles, in order to display the building process of a fractal tree that goes on forever. We wanted to introduce varying colors and a cool pattern in such. A run of the program would create a tree and display it for the observer to look at.

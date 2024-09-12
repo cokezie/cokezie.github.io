@@ -1,0 +1,14 @@
+---
+title: "Machine Learning Analysis" 
+image: featured.jpg
+categories:
+  - Data Analysis
+  - School / Fun Projects 
+about: 
+  template: solana
+  image: featured.jpg
+---
+
+> After performing dimension reduction, we have found very valuable information regarding the data set. Firstly I can see how much original data and variability is represented by each principal component by utilizing the table and graph elements below. In this example we would find that 7 principal components are ideal because it would retain approximately 80% cumulatively of the original data This is ideal as it doesn't sacrifice a lot of the original data but still brings variance that we are looking for. The `var` column is representative of amount of variability in the original features that is represented by each principal component.
+
+> We find that the first 2 principal components are representative of 40% of the variability in the principal components. After analyzing the score plot we find that the valence, loudness, `speechiness` and energy were all positively correlated to each other. And also that `acousticness` and `danceability` were negatively correlated with each other. We also find that energy, `danceability` and `acousticness` are well represented as we find that they have the highest magnitude comparatively. `Key`, `mode`, and `instrumentalness` are the lowest represented by the two dimensions. We can also observe that `tempo` is a really large contributor to Dim1 and `time_signiture` a large contributor to Dim2. Within the loadings plot above we can see that the later principal components account more for `key`, `mode` and `instrumentalness` which we saw was not represented as well by just simply the first two principal components.
