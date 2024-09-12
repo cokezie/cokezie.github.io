@@ -11,3 +11,4 @@ page-layout: full
 comments: false
 ---
 
+Primarily, my data analysis experiences have been in multiple different areas, with a wide lens focusing on analyzing data for social good.  

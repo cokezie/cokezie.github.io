@@ -2,8 +2,7 @@
 title: "About"
 ---
 
-About this site
+**Primary interests:** Primarily, I am interested in graphical and statistical models, I enjoy thinking thinking about machine learning, machine learning models and the best ways in which to analyze and present information in a way that is most efficient and easily understandable for the average user. Furthermore I am interested in statistical applications to biology and sociology with a particular interest in public physical and mental health.
 
-```{r}
-1 + 1
-```
+**Relevant classes**: *Introduction to Statistic Modeling (Statistics 155)*, *Statistical Machine Learning (Statistics 253)*, *Introduction to Data Science (Statistics/Computer Science 112)*, *Genetics (Biology 190)*, *Prius or Pickup? Political Divides and Social Class (Sociology 150)*, *Sociology of Mental Health (Sociology 294)*
+

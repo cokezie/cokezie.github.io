@@ -1,0 +1,4 @@
+---
+title: "Dimention Reduction Analysis"
+image: featured.jpg
+---

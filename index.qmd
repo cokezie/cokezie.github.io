@@ -15,7 +15,7 @@ about:
       href: https://github.com/cokezie
 ---
 
-:::{#hero-heading}
+:::{#intro-heading}
 
 Chukwubunkem (Chi Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. Chi Chi is planning to double major in biology and statistics with a minor in sociology. When not studying, Chi Chi enjoys spending time reading, knitting, playing the viola, enjoying nature, and much more! 
 
