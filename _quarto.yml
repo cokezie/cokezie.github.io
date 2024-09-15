@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Chi Chi Okezie"
+  bread-crumbs: true
   navbar:
     background: primary
     search: true

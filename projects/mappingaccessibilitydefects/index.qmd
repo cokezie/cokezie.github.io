@@ -2,7 +2,7 @@
 title: "Observing and Organizing Accessibility Defects"
 image: featured.jpg
 categories:
-  - REU / Summer Projects
+  - Data Entry
   - Collaborative Efforts
 about: 
   template: solana

@@ -2,7 +2,8 @@
 title: "Mapping Code Quality"
 image: featured.jpg
 categories:
-  - REU / Summer Projects
+  - Data Entry
+  - Python Coding
   - Collaborative Efforts
 about: 
   template: solana

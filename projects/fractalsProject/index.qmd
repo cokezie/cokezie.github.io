@@ -2,7 +2,6 @@
 title: "Fractal Tree Customization Project"
 image: featured.jpg
 categories:
-  - School / Fun Projects
   - Collaborative Efforts
   - Python Coding 
 about: 

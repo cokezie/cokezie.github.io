@@ -2,7 +2,7 @@
 title: "Survey Data Collection" 
 image: featured.jpg
 categories:
-  - Data Analysis
+  - Data Entry
 about: 
   template: solana
   image: featured.jpg
