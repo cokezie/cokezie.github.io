@@ -9,3 +9,13 @@ about:
   template: solana
   image: featured.jpg
 ---
+
+One of the projects that I worked on with professor Marouane Kessentini of University of Michigan-Flint and a University of Michigan-Flint PhD student Mohamed Almukhtar focused on the creation of foundational work for automating quality enhancement changes in machine learning powered accessibility software.  
+
+With this project, we conducted an empirical study using open-source GitHub projects, to access and focus on quality metrics of code commits and compare them with their parent commits. The insights gained from this comparison will help us determine whether our chosen quality metrics have improved or deteriorated over time. We then evaluated our novel quality metric assessment tool against the dataset generated from our empirical study, measuring Cohen's kappa score, accuracy, recall, and other metrics in which to assess the validity of our collected data and tool. When our tool was fine tuned to give us the accuracy score that we had aimed for, we utilized the tool to analyze even larger code commits, eventually analyzing the changes in over 1,000 code commits. 
+
+From this we were given larger insight into the specific details which enhance our studied metrics, enabling us to be able to develop a comprehensive taxonomy of our work and what we've learned. This taxonomy outlines each of the changes that contribute to the enhancement of each quality metric. The creation and work done on this taxonomy has accomplished our original goal of creating a foundational work for automating quality enhancement changes in machine learning powered software for enhancing accessibility for all. 
+
+**Product**:
+
+Link to published paper coming soon, November 2024. 

@@ -3,9 +3,9 @@ title: "Dimention Reduction Analysis Project"
 image: featured.jpg
 image-alt: "Graphical representation of our data prior to dimention reduction analysis"
 categories:
-  - School / Fun Projects
+  - School Projects
   - Collaborative Efforts
-  - RStudio Coding
+  - R Coding
 about: 
   template: solana
   image: featured.jpg
@@ -13,4 +13,5 @@ about:
 
 Within a team of three, we conducted dimensional reduction analysis on a Premier League football (soccer) team. Our goal for this project is to use a classification algorithm to predict whether a Premier League home team will win, lose, or tie their match. We aim for our final model to have a high CV accuracy rate, showing that the model performs similarly well on unseen data as it does using the training data. We made a point not to prioritize a simple, easy-to-interpret model, but instead prioritize a model with higher accuracy. Because of this, we will need to be cognizant of how overfit our model may become to our training data.
 
-The final LASSO/Linear Regression classification model incorporated an optimal set of variables and was fine-tuned with LASSO lambda in order to achieve an optimal balance between bias and variance. We conducted a grid search over a range of neighbor values and assessed the model to avoid overfitting. Our final model uses a lambda penalty value of 0.06250552 minimizing variables and utilizing what truly matters in order for us to obtain a final accuracy rate of 82.89%
+The final LASSO/Linear Regression classification model incorporated an optimal set of variables and was fine-tuned with LASSO lambda in order to achieve an optimal balance between bias and variance. We conducted a grid search over a range of neighbor values and assessed the model to avoid overfitting. Our final model uses a lambda penalty value of 0.06250552 minimizing variables and utilizing what truly matters in order for us to obtain a final accuracy rate of 82.89%. 
+
