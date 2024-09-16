@@ -4,6 +4,7 @@ image: featured.jpg
 categories:
   - Data Analysis
   - Machine Learning
+  - R Coding
 about: 
   template: solana
   image: featured.jpg
