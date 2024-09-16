@@ -6,7 +6,7 @@
 
 ## About Me 
 
-**Introductions:** Hi! My name is Chukwubunkem (Chi Chi), I am a Nigerian immigrant, sister of two, friend and coworker to many. I am a first year, full-time student of Macalester College, to be a junior in fall 2025. Before college, I resided in Detroit, MI. Currently in college, my interest is in Biostatistics, with a double major in both Statistics and Biology. Additionally, I am pursuing a minor in sociology. 
+**Introductions:** Hi! My name is Chukwubunkem (Chi Chi), I am a Nigerian immigrant, sister to two, friend and coworker to many. I am a first year, full-time student of Macalester College, to be a junior in fall 2025. Before college, I resided in Detroit, MI. Currently in college, my interest is in Biostatistics, with a double major in both Statistics and Biology. Additionally, I am pursuing a minor in sociology. 
 
 **Primary interests:** Primarily, I am interested in graphical and statistical models, I enjoy thinking about machine learning, machine learning models (and their limitations) as well as the best ways in which to analyze and present information in a way that is most efficient and easily understandable for the average user. Furthermore I am interested in statistical applications for biology and sociology with a particular interest in public, physical, and mental health.
 
