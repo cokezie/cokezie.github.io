@@ -8,6 +8,7 @@ about:
   image: featured.jpg
 ---
 
-In August of 2024 I began working with professor Roopali Phadke of Macalester College, in which to collect field data concerning environmental and recycling knowledge among the general public, collecting over 1000 surveys from MN residents. In this, we plan on preforming data analysis on the results to understand what is commonly known. Using this to then create improve environmental knowledge among the general public by presenting what we know and what we don't know at a booth at the Minnesota state fair of 2025. 
+
+In August of 2024, I began working with professor Roopali Phadke of Macalester College. My role was to collect field data concerning environmental and recycling knowledge among the public, collecting over 1000 surveys from MN residents. At the conclusion of the data collection, we plan on performing data analysis with the aim of understanding what is commonly known. The result will be used to improve the environmental knowledge of the public by creating an infographic concerning what we know and what we don't know at a booth at the Minnesota State Fair in 2025.
 
 **Product**: *Research will continue into 2025, therefore awaiting publication*
