@@ -3,7 +3,6 @@ title: "Dimention Reduction Analysis Project"
 image: featured.jpg
 image-alt: "Graphical representation of our data prior to dimention reduction analysis"
 categories:
-  - School Projects
   - Collaborative Efforts
   - R Coding
 about: 
