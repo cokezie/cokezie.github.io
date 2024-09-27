@@ -15,6 +15,8 @@ website:
       - projects.qmd
       - href: experiences.qmd
         text: Leadership
+      - href: tidytuesdays.qmd
+        text: TidyTuesday Spotlight
         
   page-footer:
       left: |
