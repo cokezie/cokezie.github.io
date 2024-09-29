@@ -12,11 +12,12 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - projects.qmd
+      - text: Projects
+        menu: 
+        - projects.qmd
+        - tidytuesdays.qmd
       - href: experiences.qmd
         text: Leadership
-      - href: tidytuesdays.qmd
-        text: TidyTuesday Spotlight
         
   page-footer:
       left: |
