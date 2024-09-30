@@ -42,6 +42,13 @@
     "text": "Within a team of three, we conducted dimensional reduction analysis on a Premier League football (soccer) team. Our goal for this project is to use a classification algorithm to predict whether a Premier League home team will win, lose, or tie their match. We aim for our final model to have a high CV accuracy rate, showing that the model performs similarly well on unseen data as it does using the training data. We made a point not to prioritize a simple, easy-to-interpret model, but instead prioritize a model with higher accuracy. Because of this, we will need to be cognizant of how overfit our model may become to our training data.\nThe final LASSO/Linear Regression classification model incorporated an optimal set of variables and was fine-tuned with LASSO lambda in order to achieve an optimal balance between bias and variance. We conducted a grid search over a range of neighbor values and assessed the model to avoid overfitting. Our final model uses a lambda penalty value of 0.06250552 minimizing variables and utilizing what truly matters in order for us to obtain a final accuracy rate of 82.89%."
   },
   {
+    "objectID": "tidytuesdays.html",
+    "href": "tidytuesdays.html",
+    "title": "TidyTuesday Spotlight",
+    "section": "",
+    "text": "This is where I will be displaying projects done under ‘#TidyTuesdays’. TidyTuesday is a weekly collaborative data project in which the Macalester mathematics, statistics, and computer science (MSCS) department students and staff have established in which to encourage a community effort in exploring the different ways we can configure and arrange the same data set to give us different conclusions and information. This valuable experience includes working with new data sets every week collaboratively in which to find different ways to visualize data and explore different tools, packages, and functions within R and SQL. My ‘TidyTuesday’ graphical summaries are presneted below."
+  },
+  {
     "objectID": "experiences.html",
     "href": "experiences.html",
     "title": "Leadership",
@@ -75,6 +82,13 @@
     "title": "Leadership",
     "section": "",
     "text": "The Mac Mentorship Program is a year-long mentoring program between Macalester students and high school juniors and seniors in the TRIO Upward Bound program at North Hennepin Community College (NHCC). The program begins in the spring semester and continues to the fall semester of the 2025 academic year. As a mentor, I will be working with the same group of mentees starting from their junior year to senior year. This program provides guidance and support to high school students, including integrating them into the college community. With this experience, I hope to learn about the difficulties that others face as they begin their college application and finally as they secure admission into college. Also, I hope to learn about securing the finance that is required for their education, including becoming acquainted with the common questions associated with college and what others find difficult about the experience. There is no question that with this experience, there is much to learn and skills to repurpose."
+  },
+  {
+    "objectID": "experiences.html#rondo-community-outreach-library---teaching-assistant",
+    "href": "experiences.html#rondo-community-outreach-library---teaching-assistant",
+    "title": "Leadership",
+    "section": "",
+    "text": "In the 1930s, Rondo Avenue was at the heart of St. Paul, Minnesota’s largest Black neighborhood. One that brought community, vital liveliness, and an escape, distracting from the struggle that simply being a Black American brought on throughout the day. The construction of I-94 in 1968 divided this community and displaced thousands of Black Americans into a rather racially segregated and discriminatory housing market. The community has never been the same since. Though there are initiatives to keep the Rondo community alive. The Rondo Community Outreach Library hopes to bring back the community that once was. The library is also home to a special collection of Rondo artifacts and information, capturing and showcasing the rich history of the neighborhood.\nAs we exist in a digital age, there is an increasing amount of mandatory technology usage due to jobs, media, news, communication, and more being normally found on the internet. Therefore, adaptation to this new digital age must occur among older populations of people. It is becoming ever more necessary to become more knowledgeable about online resources as doctor appointments, meetings, and other activities have switched to online interfaces. Based on this, in since October of 2022, Jenaya Myvett, an instructor and Rondo Black American community engagement specialist, made it her mission to make sure that a lack of technology is not a hindrance to the Rondo community’s ability to apply to jobs, communicate with others, schedule doctor’s appointments, simply peruse the internet, and perform other internet activities. To do this, she constructed a technology certification class in which to unite the community and help them achieve digital literacy at the same time.\nIn my position, I am tasked with answering questions, explaining concepts, and making sure that the class is running smoothly. I effectively assist 10+ adults per week in earning certificates in digital literacy. I actively proctor 4+ practice exams per week, helping students gain competency in digital literacy. Additionally, I build connections between myself and the Rondo community. This position has been one of both teaching and learning for me in a way that I could have never imagined, and I am so grateful to Jenaya Myvett, the volunteers, and the students that make this a reality.\nCredit: https://www.macalester.edu/community-engagement/academiccivicengagement/historic-rondo-neighborhood/\nMore information on Rondo: https://libguides.mnhs.org/rondo/ov and https://reconnectrondo.com/vision/"
   },
   {
     "objectID": "projects/mappingaccessibilitydefects/index.html",
@@ -124,33 +138,5 @@
     "title": "Chukwubunkem (Chi Chi) Okezie",
     "section": "",
     "text": "Macalester College | Dept. of Environmental Studies\nResearch Assistant | September 2024 - Present\n\nUniversity of Michigan-Flint |\nCollege of Innovation and Technology |\nResearch Assistant | May 2024 - August 2024"
-  },
-  {
-    "objectID": "tidytuedays.html",
-    "href": "tidytuedays.html",
-    "title": "TidyTuesday Spotlight",
-    "section": "",
-    "text": "This is where I will be displaying projects done under ‘#TidyTuesdays’. TidyTuesday is a weekly collaborative data project in which the Macalester mathematics, statistics, and computer science (MSCS) department students and staff have established in which to encourage a community effort in exploring the different ways we can configure and arrange the same data set to give us different conclusions and information. This valuable experience includes working with new data sets every week collaboratively in which to find different ways to visualize data and explore different tools, packages, and functions within R and SQL. My ‘TidyTuesday’ graphical summaries are presneted below."
-  },
-  {
-    "objectID": "tidytuedays.html#tidytuesday-spotlight",
-    "href": "tidytuedays.html#tidytuesday-spotlight",
-    "title": "tidytuesdays.qmd",
-    "section": "",
-    "text": "This is where I will be displaying projects done under ‘#TidyTuesdays’. TidyTuesday is a weekly collaborative data project in which the Macalester mathematics, statistics, and computer science (MSCS) department students and staff have established in which to encourage a community effort in exploring the different ways we can configure and arrange the same data set to give us different conclusions and information. This valuable experience includes working with new data sets every week collaboratively in which to find different ways to visualize data and explore different tools, packages, and functions within R and SQL. Also, within the hastag ‘#TidyTuesdays’ on the social media platform X, you can view other students’ visualizations and their code in which to learn different ways that others chose to represent the data. My ‘#TidyTuesdays’ will be posted here."
-  },
-  {
-    "objectID": "experiences.html#rondo-community-outreach-library---teaching-assistant",
-    "href": "experiences.html#rondo-community-outreach-library---teaching-assistant",
-    "title": "Leadership",
-    "section": "",
-    "text": "In the 1930s, Rondo Avenue was at the heart of St. Paul, Minnesota’s largest Black neighborhood. One that brought community, vital liveliness, and an escape, distracting from the struggle that simply being a Black American brought on throughout the day. The construction of I-94 in 1968 divided this community and displaced thousands of Black Americans into a rather racially segregated and discriminatory housing market. The community has never been the same since. Though there are initiatives to keep the Rondo community alive. The Rondo Community Outreach Library hopes to bring back the community that once was. The library is also home to a special collection of Rondo artifacts and information, capturing and showcasing the rich history of the neighborhood.\nAs we exist in a digital age, there is an increasing amount of mandatory technology usage due to jobs, media, news, communication, and more being normally found on the internet. Therefore, adaptation to this new digital age must occur among older populations of people. It is becoming ever more necessary to become more knowledgeable about online resources as doctor appointments, meetings, and other activities have switched to online interfaces. Based on this, in since October of 2022, Jenaya Myvett, an instructor and Rondo Black American community engagement specialist, made it her mission to make sure that a lack of technology is not a hindrance to the Rondo community’s ability to apply to jobs, communicate with others, schedule doctor’s appointments, simply peruse the internet, and perform other internet activities. To do this, she constructed a technology certification class in which to unite the community and help them achieve digital literacy at the same time.\nIn my position, I am tasked with answering questions, explaining concepts, and making sure that the class is running smoothly. I effectively assist 10+ adults per week in earning certificates in digital literacy. I actively proctor 4+ practice exams per week, helping students gain competency in digital literacy. Additionally, I build connections between myself and the Rondo community. This position has been one of both teaching and learning for me in a way that I could have never imagined, and I am so grateful to Jenaya Myvett, the volunteers, and the students that make this a reality.\nCredit: https://www.macalester.edu/community-engagement/academiccivicengagement/historic-rondo-neighborhood/\nMore information on Rondo: https://libguides.mnhs.org/rondo/ov and https://reconnectrondo.com/vision/"
-  },
-  {
-    "objectID": "tidytuesdays.html",
-    "href": "tidytuesdays.html",
-    "title": "TidyTuesday Spotlight",
-    "section": "",
-    "text": "This is where I will be displaying projects done under ‘#TidyTuesdays’. TidyTuesday is a weekly collaborative data project in which the Macalester mathematics, statistics, and computer science (MSCS) department students and staff have established in which to encourage a community effort in exploring the different ways we can configure and arrange the same data set to give us different conclusions and information. This valuable experience includes working with new data sets every week collaboratively in which to find different ways to visualize data and explore different tools, packages, and functions within R and SQL. My ‘TidyTuesday’ graphical summaries are presneted below."
   }
 ]
