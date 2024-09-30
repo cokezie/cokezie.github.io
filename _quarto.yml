@@ -14,8 +14,8 @@ website:
       - about.qmd
       - text: Projects
         menu: 
-        - projects.qmd
-        - tidytuesdays.qmd
+          - projects.qmd
+          - tidytuesdays.qmd
       - href: experiences.qmd
         text: Leadership
         
