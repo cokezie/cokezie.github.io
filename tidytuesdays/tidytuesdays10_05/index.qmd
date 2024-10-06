@@ -1,0 +1,72 @@
+---
+title: "Tidy Tuesdays Submission 09 / 24"
+image: featured.jpg
+image-alt: "Graphical representation of Summer Movies Dataset for Tidy Tuesdays"
+editor: visual
+---
+
+```{r, fig.align="center", fig.dim=c(14, 8), echo = FALSE, message = FALSE}
+library(tidyverse)
+library(ggplot2)
+
+summer_movies <- read.csv("summer_movies.csv")
+
+summer_movies <- summer_movies %>% 
+  mutate(year_cat = cut (year, breaks=c(0,1950,1975,2000, 2025), labels=c("0 - 1950", 
+                               "1950 - 1975", 
+                               "1976 - 2000", 
+                               "2001 - 2025")),
+         runtime_cat = cut(runtime_minutes,breaks = c(0,60,120,300), dig.lab = 3))
+
+summer_movies %>% filter(!is.na(year_cat), !is.na(runtime_cat)) %>%
+  ggplot(aes(x = year_cat, y = average_rating)) +
+  ggtitle("Comparing Average Viewer Rating over the Years by Run Time") +
+  labs(x = "Time Period of Movie Release", y = "Average Viewer Rating",
+       caption = "Source: https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-07-30#readme ") +
+  geom_boxplot() + 
+  facet_wrap(~runtime_cat) + 
+  geom_hline(aes(yintercept = mean(summer_movies$average_rating), 
+                 color = 'Mean Average Viewer Rating'), linewidth = 0.5) +
+   annotate("text", x = 3.85, y = 6.5, label = paste0("Mean: ", round(mean(summer_movies$average_rating),1) ),hjust = 0 ) + 
+  theme_light() +
+  ggeasy::easy_center_title()
+```
+
+This TidyTuesdays submission analyzes the "Summer Movies" data set; movies with "summer" in the title of it. More information about the data set can be found [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-07-30).
+
+The graph above compares the average viewer rating with the time period of movie release, also considering how this would change dependent on the run time of the movie. On the x axis maps the time period of the move release, and the y axis maps the average viewer rating with separate graphs for different run times. Additionally, there is an overall mean average viewer rating across all time periods and run times of 6.3/10, and we can see how the median of each box plot compares to this.
+
+In analyzing the graph, we find that movies produced in the 2001 – 2025 time period have much more variety in average viewer rating than seen within the other time periods. This could be for a multitude of reasons, one being that the number of "summer" movies that were produced is much higher.
+
+Additionally, we observe that from years 0 - 1950 longer movies had the highest median average viewer rating of this category, though we also see a very little amount of variability. In this, we could hypothesize that the few movies that were produced with a longer run time were more thought out and intentional, attributing to people having high appreciation for the film.
+
+Similarly to the years 0 – 1950, we also saw a positive increase in median average viewer rating between 'Summer' movies released in 1950 – 1975, dependent on movie run time. In this, higher run times of 'Summer' movies had higher median values amongst these audiences. Though we don't observe the same increase within the 1976 – 2000 and 2001 – 2025 time periods.
+
+This brings up an interesting contrast in recent vs. older years where we observe within the data that as run time increases in older years, the median average viewer rating increases, not finding this same pattern in 1976 – 2000 and 2001 – 2025 time periods. In fact, within the 0 – 60 minute run time graph, we find that over time, the median average viewer rating becomes much higher. This hints at recent conversations that people have had with regard to decreasing attention span and the ways in which we see this show up within our society, this being an example of such. Further studies would have to be done to prove this association, though it is interesting to consider here. (Code below)
+
+```         
+library(tidyverse)
+library(ggplot2)
+
+summer_movies <- read.csv("summer_movies.csv")
+
+summer_movies <- summer_movies %>% 
+  mutate(year_cat = cut (year, breaks=c(0,1950,1975,2000, 2025), labels=c("0 - 1950", 
+                               "1950 - 1975", 
+                               "1976 - 2000", 
+                               "2001 - 2025")),
+         runtime_cat = cut(runtime_minutes,breaks = c(0,60,120,300), dig.lab = 3))
+
+summer_movies %>% filter(!is.na(year_cat), !is.na(runtime_cat)) %>%
+  ggplot(aes(x = year_cat, y = average_rating)) +
+  ggtitle("Comparing Average Viewer Rating over the Years by Run Time") +
+  labs(x = "Time Period of Movie Release", y = "Average Viewer Rating",
+       caption = "Source: https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-07-30#readme ") +
+  geom_boxplot() + 
+  facet_wrap(~runtime_cat) + 
+  geom_hline(aes(yintercept = mean(summer_movies$average_rating), 
+                 color = 'Mean Average Viewer Rating'), linewidth = 0.5) +
+   annotate("text", x = 3.85, y = 6.5, label = paste0("Mean: ", round(mean(summer_movies$average_rating),1) ),hjust = 0 ) + 
+  theme_light() +
+  ggeasy::easy_center_title()
+```

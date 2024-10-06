@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/tidytuesdays.html",
+    "items": [
+      "/tidytuesdays/tidytuesdays10_05/index.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
       "/projects/SurveyDataCollection/index.html",
