@@ -1,0 +1,136 @@
+---
+title: "Tidy Tuesdays Submission 10 / 24"
+image: featured.jpg
+image-alt: "Graphical representation of Historical Valentines Day Spending Dataset for Tidy Tuesdays"
+editor: visual
+---
+
+```{r, fig.align="center", echo = FALSE, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(ggthemes)
+library(plotly)
+
+historical_spending <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-13/historical_spending.csv')
+
+inflation_data <- data.frame(
+  Year = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022),
+  inflation_rate = c(12.33, 12.72, 12.98, 13.17, 13.39, 13.4, 13.57, 13.86, 14.21, 14.46, 14.63, 15.32, 16.55)
+)
+
+historical_spending <- inflation_data %>% 
+  left_join(historical_spending, by = "Year")
+
+p <- historical_spending %>% 
+    pivot_longer(cols = c(Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards, inflation_rate), 
+                 names_to = "spending_on", 
+                 values_to = "percentage") %>%
+  group_by(spending_on) %>%
+  mutate(percent_change = (percentage - percentage[Year == 2010])/percentage[Year == 2010]) %>%
+      ggplot(aes(x = Year, y = percent_change, color = spending_on)) +
+    geom_line() +
+  geom_point() +
+  theme_wsj() +
+  scale_x_continuous(breaks=seq(2010,2022,by =2)) + 
+  labs(x = "Year", 
+       y = "Percent Change Per Year", 
+       color = 'Spending Category:',
+       caption = "Data Sourced from: https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-02-13/readme.md \n
+       Read more about this data and explore: https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center",
+       title = "Mapping Historical Spending Change Over the Years") +
+  theme(
+        plot.title = element_text(hjust = 0.5, size = 14),
+        plot.caption = element_text(size = 5),
+        legend.position = "inside",
+        legend.position.inside = c(0.3, 0.8),
+        legend.key.spacing.x = unit(5, "pt"),
+        legend.key.spacing.y = unit(5, "pt"),
+        legend.text = element_text(margin = margin(l = 2)),
+        legend.box.background = element_rect(color = "black"),
+        legend.title.position = "top", 
+        legend.title= element_text(size = 8, hjust = 0.5))
+```
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE }
+p <- historical_spending %>% 
+    pivot_longer(cols = c(Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards, inflation_rate), 
+                 names_to = "spending_on", 
+                 values_to = "percentage") %>%
+  group_by(spending_on) %>%
+  mutate(percent_change = (percentage - percentage[Year== 2010])/percentage[Year== 2010]) %>%
+  mutate(tooltip_text = str_c("Spending Category: ",spending_on,"\n % Change from 2010: ", round(percent_change,2)*100,"% \n Year: ",Year)) %>%
+  ggplot(aes(text = tooltip_text)) +
+  geom_line(aes(x = Year, y = percent_change, color = spending_on,group = spending_on)) +
+  geom_point(aes(x = Year, y = percent_change, color = spending_on)) +
+  theme_wsj() +
+  scale_x_continuous(breaks=seq(2010,2022,by = 2)) + 
+  labs(x = "Year", 
+       y = "Percent Change Per Year", 
+       color = '',
+       caption = "Data Sourced from: https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-02-13/readme.md \n
+       Read more about this data and explore: https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center",
+       title = "Mapping Historical Spending Change Over the Years") +
+  theme(plot.subtitle = element_text(size = 15),
+        plot.title = element_text(hjust = 0.5, size = 14),
+        plot.caption = element_text(size = 1))
+
+ggplotly(p,tooltip = 'text')
+```
+
+For this TidyTuesday, I have decided that I am going to use the Valentines day datasets, which comes from a Kaggle dataset uploaded by Suraj Das in 2021. The Kaggle user collected the data from here. This links is to the National Retail Federation's website. This foundation reports data collected from surveys taken by consumers on how they plan to celebrate Valentine's Day annually over the course of years, spanning 10+ years. In this, within this dataset we analyze the average amount of money spent per year on each individual item as a single unit of observation.
+
+Research Question: How does spending on different items for valentines vary yearly? Is there certain gifts that were popular during a certain year?
+
+The figure pictured depicts the relationship between the change in spending of Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards and Inflation_rate during Valentines day over the course of the years 2010 to 2022. We observe different colored lines for each item that we are tracking the change in spending of.
+
+Overall, the lines follow a overall net positive trend with Jewelry as the steepest line. This compared with an interest rate line which maps the percent of interest change over the years, which the line for GreetingCards and GiftCards seem to follow similar trends with. This observation indicating that the amount of money spent on GreetingCards and GiftCards has remained fairly consistent, comparatively.
+
+In the opposite fashion, we find that the amount spent on jewelry over the years varies greatly by year with no specific pattern. With this, we would need to conduct further research on surrounding factors including jewelry specific inflation rates, and jewelry trends over the years, among more to find further variables that are able to explain the pattern we observe in the percent change of spending on jewelry from the years 2010 to 2022.
+
+Flowers also seemed to be close in consistency to the inflation rate's slope. In this, we can infer that people spend the same amount of flowers yearly, though, this price went up due to inflation and not due to people buying more (and/or more expensive!) flowers for their loved ones.
+
+Furthermore, Candy and Jewelry seem to be very variable dependent on the year as we observe the percent change at different levels throughout the years, though the two stay pretty consistently popular for Valentines Day Gifts. We also see these two struck the hardest (negatively) by the COVID pandemic of 2021. During 2021, it seems as though it was more popular to spend more money on GiftCards and Clothing for your loved ones' valentines day.
+
+```         
+library(tidyverse)
+library(ggthemes)
+library(ggthemes)
+
+historical_spending <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-13/historical_spending.csv')
+
+inflation_data <- data.frame(
+  Year = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022),
+  inflation_rate = c(12.33, 12.72, 12.98, 13.17, 13.39, 13.4, 13.57, 13.86, 14.21, 14.46, 14.63, 15.32, 16.55)
+)
+
+historical_spending <- inflation_data %>% 
+  left_join(historical_spending, by = "Year")
+
+p <- historical_spending %>% 
+    pivot_longer(cols = c(Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards, inflation_rate), 
+                 names_to = "spending_on", 
+                 values_to = "percentage") %>%
+  group_by(spending_on) %>%
+  mutate(percent_change = (percentage - percentage[Year == 2010])/percentage[Year == 2010]) %>%
+      ggplot(aes(x = Year, y = percent_change, color = spending_on)) +
+    geom_line() +
+  geom_point() +
+  theme_wsj() +
+  scale_x_continuous(breaks=seq(2010,2022,by =2)) + 
+  labs(x = "Year", 
+       y = "Percent Change Per Year", 
+       color = 'Spending Category:',
+       caption = "Data Sourced from: https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-02-13/readme.md \n
+       Read more about this data and explore: https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center",
+       title = "Mapping Historical Spending Change Over the Years") +
+  theme(
+        plot.title = element_text(hjust = 0.5, size = 14),
+        plot.caption = element_text(size = 5),
+        legend.position = "inside",
+        legend.position.inside = c(0.3, 0.8),
+        legend.key.spacing.x = unit(5, "pt"),
+        legend.key.spacing.y = unit(5, "pt"),
+        legend.text = element_text(margin = margin(l = 2)),
+        legend.box.background = element_rect(color = "black"),
+        legend.title.position = "top", 
+        legend.title= element_text(size = 8, hjust = 0.5))
+```

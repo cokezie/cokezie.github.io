@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/tidytuesdays.html",
-    "items": [
-      "/tidytuesdays/tidytuesdays09_24/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/SurveyDataCollection/index.html",
@@ -14,6 +8,13 @@
       "/projects/mlanalysis/index.html",
       "/projects/fractalsProject/index.html",
       "/projects/dma_project/index.html"
+    ]
+  },
+  {
+    "listing": "/tidytuesdays.html",
+    "items": [
+      "/tidytuesdays/tidytuesdays10_24/index.html",
+      "/tidytuesdays/tidytuesdays09_24/index.html"
     ]
   }
 ]

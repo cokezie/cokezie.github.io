@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Tidy Tuesdays Submission 10 / 24 – Chi Chi Okezie</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Chi Chi Okezie</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../../projects.html">
+ <span class="dropdown-text">Projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../tidytuesdays.html">
+ <span class="dropdown-text">TidyTuesday Spotlight</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../experiences.html"> 
+<span class="menu-text">Leadership</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tidy Tuesdays Submission 10 / 24</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-6b969633ce13cdb5a171" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-6b969633ce13cdb5a171">{"x":{"data":[{"x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[0,0.25000000000000006,0.26162790697674421,0.35348837209302336,0.25581395348837221,0.47674418604651159,0.52441860465116275,0.47441860465116281,0.52558139534883719,0.64186046511627903,1.0116279069767444,0.7813953488372094,0.84883720930232565],"text":["Spending Category: Candy<br /> % Change from 2010: 0% <br /> Year: 2010","Spending Category: Candy<br /> % Change from 2010: 25% <br /> Year: 2011","Spending Category: Candy<br /> % Change from 2010: 26% <br /> Year: 2012","Spending Category: Candy<br /> % Change from 2010: 35% <br /> Year: 2013","Spending Category: Candy<br /> % Change from 2010: 26% <br /> Year: 2014","Spending Category: Candy<br /> % Change from 2010: 48% <br /> Year: 2015","Spending Category: Candy<br /> % Change from 2010: 52% <br /> Year: 2016","Spending Category: Candy<br /> % Change from 2010: 47% <br /> Year: 2017","Spending Category: Candy<br /> % Change from 2010: 53% <br /> Year: 2018","Spending Category: Candy<br /> % Change from 2010: 64% <br /> Year: 2019","Spending Category: Candy<br /> % Change from 2010: 101% <br /> Year: 2020","Spending Category: Candy<br /> % Change from 2010: 78% <br /> Year: 2021","Spending Category: Candy<br /> % Change from 2010: 85% <br /> Year: 2022"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"Candy","legendgroup":"Candy","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(248,118,109,1)"}},"frame":null},{"x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[0,0.097895699908508715,-0.046660567246111603,0.048490393412625905,0.22323879231473007,0.34675205855443741,0.37694419030192144,0.27264409881061302,0.28453796889295513,0.47118023787740154,0.89112534309240643,0.83440073193046671,0.96340347666971649],"text":["Spending Category: Clothing<br /> % Change from 2010: 0% <br /> Year: 2010","Spending Category: Clothing<br /> % Change from 2010: 10% <br /> Year: 2011","Spending Category: Clothing<br /> % Change from 2010: -5% <br /> Year: 2012","Spending Category: Clothing<br /> % Change from 2010: 5% <br /> Year: 2013","Spending Category: Clothing<br /> % Change from 2010: 22% <br /> Year: 2014","Spending Category: Clothing<br /> % Change from 2010: 35% <br /> Year: 2015","Spending Category: Clothing<br /> % Change from 2010: 38% <br /> Year: 2016","Spending Category: Clothing<br /> % Change from 2010: 27% <br /> Year: 2017","Spending Category: Clothing<br /> % Change from 2010: 28% <br /> Year: 2018","Spending Category: Clothing<br /> % Change from 2010: 47% <br /> Year: 2019","Spending Category: Clothing<br /> % Change from 2010: 89% <br /> Year: 2020","Spending Category: Clothing<br /> % Change from 2010: 83% <br /> Year: 2021","Spending Category: Clothing<br /> % Change from 2010: 96% <br /> Year: 2022"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(196,154,0,1)","dash":"solid"},"hoveron":"points","name":"Clothing","legendgroup":"Clothing","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(196,154,0,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(196,154,0,1)"}},"frame":null},{"x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[0,0.023519870235198633,0.094079480940794824,0.093268450932684543,0.21654501216545011,0.27493917274939178,0.19870235198702346,0.18653690186536909,0.19626926196269262,0.22222222222222224,0.33738848337388472,0.2506082725060827,0.3552311435523115],"text":["Spending Category: Flowers<br /> % Change from 2010: 0% <br /> Year: 2010","Spending Category: Flowers<br /> % Change from 2010: 2% <br /> Year: 2011","Spending Category: Flowers<br /> % Change from 2010: 9% <br /> Year: 2012","Spending Category: Flowers<br /> % Change from 2010: 9% <br /> Year: 2013","Spending Category: Flowers<br /> % Change from 2010: 22% <br /> Year: 2014","Spending Category: Flowers<br /> % Change from 2010: 27% <br /> Year: 2015","Spending Category: Flowers<br /> % Change from 2010: 20% <br /> Year: 2016","Spending Category: Flowers<br /> % Change from 2010: 19% <br /> Year: 2017","Spending Category: Flowers<br /> % Change from 2010: 20% <br /> Year: 2018","Spending Category: Flowers<br /> % Change from 2010: 22% <br /> Year: 2019","Spending Category: Flowers<br /> % Change from 2010: 34% <br /> Year: 2020","Spending Category: Flowers<br /> % Change from 2010: 25% <br /> Year: 2021","Spending Category: Flowers<br /> % Change from 2010: 36% <br /> Year: 2022"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(83,180,0,1)","dash":"solid"},"hoveron":"points","name":"Flowers","legendgroup":"Flowers","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(83,180,0,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(83,180,0,1)"}},"frame":null},{"x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[0,0.33135391923990509,0.0011876484560569818,0.21496437054631834,0.068883610451306421,0.31235154394299297,0.48693586698337288,0.21496437054631834,0.31116389548693579,0.22446555819477443,0.6876484560570072,0.86104513064133015,1.0451306413301662],"text":["Spending Category: GiftCards<br /> % Change from 2010: 0% <br /> Year: 2010","Spending Category: GiftCards<br /> % Change from 2010: 33% <br /> Year: 2011","Spending Category: GiftCards<br /> % Change from 2010: 0% <br /> Year: 2012","Spending Category: GiftCards<br /> % Change from 2010: 21% <br /> Year: 2013","Spending Category: GiftCards<br /> % Change from 2010: 7% <br /> Year: 2014","Spending Category: GiftCards<br /> % Change from 2010: 31% <br /> Year: 2015","Spending Category: GiftCards<br /> % Change from 2010: 49% <br /> Year: 2016","Spending Category: GiftCards<br /> % Change from 2010: 21% <br /> Year: 2017","Spending Category: GiftCards<br /> % Change from 2010: 31% <br /> Year: 2018","Spending Category: GiftCards<br /> % Change from 2010: 22% <br /> Year: 2019","Spending Category: GiftCards<br /> % Change from 2010: 69% <br /> Year: 2020","Spending Category: GiftCards<br /> % Change from 2010: 86% <br /> Year: 2021","Spending Category: GiftCards<br /> % Change from 2010: 105% <br /> Year: 2022"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(0,192,148,1)","dash":"solid"},"hoveron":"points","name":"GiftCards","legendgroup":"GiftCards","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(0,192,148,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,192,148,1)"}},"frame":null},{"x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[0,0.36886632825719112,0.17258883248730958,0.40778341793570222,0.34856175972927234,0.33164128595600678,0.44162436548223338,0.24534686971235198,0.10829103214890011,0.23688663282571903,0.52453468697123518,0.43485617597292731,0.26395939086294407],"text":["Spending Category: GreetingCards<br /> % Change from 2010: 0% <br /> Year: 2010","Spending Category: GreetingCards<br /> % Change from 2010: 37% <br /> Year: 2011","Spending Category: GreetingCards<br /> % Change from 2010: 17% <br /> Year: 2012","Spending Category: GreetingCards<br /> % Change from 2010: 41% <br /> Year: 2013","Spending Category: GreetingCards<br /> % Change from 2010: 35% <br /> Year: 2014","Spending Category: GreetingCards<br /> % Change from 2010: 33% <br /> Year: 2015","Spending Category: GreetingCards<br /> % Change from 2010: 44% <br /> Year: 2016","Spending Category: GreetingCards<br /> % Change from 2010: 25% <br /> Year: 2017","Spending Category: GreetingCards<br /> % Change from 2010: 11% <br /> Year: 2018","Spending Category: GreetingCards<br /> % Change from 2010: 24% <br /> Year: 2019","Spending Category: GreetingCards<br /> % Change from 2010: 52% <br /> Year: 2020","Spending Category: GreetingCards<br /> % Change from 2010: 43% <br /> Year: 2021","Spending Category: GreetingCards<br /> % Change from 2010: 26% <br /> Year: 2022"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(0,182,235,1)","dash":"solid"},"hoveron":"points","name":"GreetingCards","legendgroup":"GreetingCards","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(0,182,235,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,182,235,1)"}},"frame":null},{"x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[0,0.031630170316301748,0.052716950527169536,0.068126520681265193,0.085969180859691852,0.086780210867802132,0.10056772100567722,0.12408759124087586,0.15247364152473647,0.17274939172749398,0.18653690186536909,0.24249797242497975,0.34225466342254668],"text":["Spending Category: inflation_rate<br /> % Change from 2010: 0% <br /> Year: 2010","Spending Category: inflation_rate<br /> % Change from 2010: 3% <br /> Year: 2011","Spending Category: inflation_rate<br /> % Change from 2010: 5% <br /> Year: 2012","Spending Category: inflation_rate<br /> % Change from 2010: 7% <br /> Year: 2013","Spending Category: inflation_rate<br /> % Change from 2010: 9% <br /> Year: 2014","Spending Category: inflation_rate<br /> % Change from 2010: 9% <br /> Year: 2015","Spending Category: inflation_rate<br /> % Change from 2010: 10% <br /> Year: 2016","Spending Category: inflation_rate<br /> % Change from 2010: 12% <br /> Year: 2017","Spending Category: inflation_rate<br /> % Change from 2010: 15% <br /> Year: 2018","Spending Category: inflation_rate<br /> % Change from 2010: 17% <br /> Year: 2019","Spending Category: inflation_rate<br /> % Change from 2010: 19% <br /> Year: 2020","Spending Category: inflation_rate<br /> % Change from 2010: 24% <br /> Year: 2021","Spending Category: inflation_rate<br /> % Change from 2010: 34% <br /> Year: 2022"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(165,138,255,1)","dash":"solid"},"hoveron":"points","name":"inflation_rate","legendgroup":"inflation_rate","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(165,138,255,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(165,138,255,1)"}},"frame":null},{"x":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[0,0.21654275092936803,0.37546468401486999,0.43773234200743505,0.4210037174721189,0.68680297397769507,0.53856877323420072,0.50185873605947962,0.58457249070631978,0.40985130111524165,0.93540892193308545,0.42704460966542757,1.1259293680297398],"text":["Spending Category: Jewelry<br /> % Change from 2010: 0% <br /> Year: 2010","Spending Category: Jewelry<br /> % Change from 2010: 22% <br /> Year: 2011","Spending Category: Jewelry<br /> % Change from 2010: 38% <br /> Year: 2012","Spending Category: Jewelry<br /> % Change from 2010: 44% <br /> Year: 2013","Spending Category: Jewelry<br /> % Change from 2010: 42% <br /> Year: 2014","Spending Category: Jewelry<br /> % Change from 2010: 69% <br /> Year: 2015","Spending Category: Jewelry<br /> % Change from 2010: 54% <br /> Year: 2016","Spending Category: Jewelry<br /> % Change from 2010: 50% <br /> Year: 2017","Spending Category: Jewelry<br /> % Change from 2010: 58% <br /> Year: 2018","Spending Category: Jewelry<br /> % Change from 2010: 41% <br /> Year: 2019","Spending Category: Jewelry<br /> % Change from 2010: 94% <br /> Year: 2020","Spending Category: Jewelry<br /> % Change from 2010: 43% <br /> Year: 2021","Spending Category: Jewelry<br /> % Change from 2010: 113% <br /> Year: 2022"],"type":"scatter","mode":"lines+markers","line":{"width":1.8897637795275593,"color":"rgba(251,97,215,1)","dash":"solid"},"hoveron":"points","name":"Jewelry","legendgroup":"Jewelry","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(251,97,215,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(251,97,215,1)"}},"frame":null}],"layout":{"margin":{"t":53.796928185969279,"r":19.200000000000003,"b":39.125280199252806,"l":47.095392278953931},"plot_bgcolor":"rgba(248,242,228,1)","paper_bgcolor":"rgba(248,242,228,1)","font":{"color":"rgba(0,0,0,1)","family":"sans","size":15.940224159402241},"title":{"text":"<b> Mapping Historical Spending Change Over the Years <\/b>","font":{"color":"rgba(0,0,0,1)","family":"mono","size":18.596928185969279},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2009.4000000000001,2022.5999999999999],"tickmode":"array","ticktext":["2010","2012","2014","2016","2018","2020","2022"],"tickvals":[2010,2012,2014,2016,2018,2020,2022],"categoryorder":"array","categoryarray":["2010","2012","2014","2016","2018","2020","2022"],"nticks":null,"ticks":"outside","tickcolor":"rgba(0,0,0,1)","ticklen":3.9850560398505603,"tickwidth":0.72455564360919278,"showticklabels":true,"tickfont":{"color":"rgba(0,0,0,1)","family":"sans","size":15.940224159402241},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.72455564360919278,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.10529006400990418,1.1845588647935323],"tickmode":"array","ticktext":["0.0","0.3","0.6","0.9"],"tickvals":[0,0.30000000000000004,0.59999999999999998,0.90000000000000013],"categoryorder":"array","categoryarray":["0.0","0.3","0.6","0.9"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.9850560398505608,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(0,0,0,1)","family":"sans","size":15.940224159402243},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(0,0,0,1)","gridwidth":0.72455564360919289,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"transparent","width":0.72455564360919289,"linetype":"none"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(248,242,228,1)","bordercolor":"transparent","borderwidth":2.0615604867573372,"font":{"color":"rgba(0,0,0,1)","family":"sans","size":12.7521793275218},"title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"mono","size":31.880448318804483}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"657bc4ba1b5":{"text":{},"x":{},"y":{},"colour":{},"type":"scatter"},"657b39657861":{"text":{},"x":{},"y":{},"colour":{}}},"cur_data":"657bc4ba1b5","visdat":{"657bc4ba1b5":["function (y) ","x"],"657b39657861":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>For this TidyTuesday, I have decided that I am going to use the Valentines day datasets, which comes from a Kaggle dataset uploaded by Suraj Das in 2021. The Kaggle user collected the data from here. This links is to the National Retail Federation’s website. This foundation reports data collected from surveys taken by consumers on how they plan to celebrate Valentine’s Day annually over the course of years, spanning 10+ years. In this, within this dataset we analyze the average amount of money spent per year on each individual item as a single unit of observation.</p>
+<p>Research Question: How does spending on different items for valentines vary yearly? Is there certain gifts that were popular during a certain year?</p>
+<p>The figure pictured depicts the relationship between the change in spending of Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards and Inflation_rate during Valentines day over the course of the years 2010 to 2022. We observe different colored lines for each item that we are tracking the change in spending of.</p>
+<p>Overall, the lines follow a overall net positive trend with Jewelry as the steepest line. This compared with an interest rate line which maps the percent of interest change over the years, which the line for GreetingCards and GiftCards seem to follow similar trends with. This observation indicating that the amount of money spent on GreetingCards and GiftCards has remained fairly consistent, comparatively.</p>
+<p>In the opposite fashion, we find that the amount spent on jewelry over the years varies greatly by year with no specific pattern. With this, we would need to conduct further research on surrounding factors including jewelry specific inflation rates, and jewelry trends over the years, among more to find further variables that are able to explain the pattern we observe in the percent change of spending on jewelry from the years 2010 to 2022.</p>
+<p>Flowers also seemed to be close in consistency to the inflation rate’s slope. In this, we can infer that people spend the same amount of flowers yearly, though, this price went up due to inflation and not due to people buying more (and/or more expensive!) flowers for their loved ones.</p>
+<p>Furthermore, Candy and Jewelry seem to be very variable dependent on the year as we observe the percent change at different levels throughout the years, though the two stay pretty consistently popular for Valentines Day Gifts. We also see these two struck the hardest (negatively) by the COVID pandemic of 2021. During 2021, it seems as though it was more popular to spend more money on GiftCards and Clothing for your loved ones’ valentines day.</p>
+<pre><code>library(tidyverse)
+library(ggthemes)
+library(ggthemes)
+
+historical_spending &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-13/historical_spending.csv')
+
+inflation_data &lt;- data.frame(
+  Year = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022),
+  inflation_rate = c(12.33, 12.72, 12.98, 13.17, 13.39, 13.4, 13.57, 13.86, 14.21, 14.46, 14.63, 15.32, 16.55)
+)
+
+historical_spending &lt;- inflation_data %&gt;% 
+  left_join(historical_spending, by = "Year")
+
+p &lt;- historical_spending %&gt;% 
+    pivot_longer(cols = c(Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards, inflation_rate), 
+                 names_to = "spending_on", 
+                 values_to = "percentage") %&gt;%
+  group_by(spending_on) %&gt;%
+  mutate(percent_change = (percentage - percentage[Year == 2010])/percentage[Year == 2010]) %&gt;%
+      ggplot(aes(x = Year, y = percent_change, color = spending_on)) +
+    geom_line() +
+  geom_point() +
+  theme_wsj() +
+  scale_x_continuous(breaks=seq(2010,2022,by =2)) + 
+  labs(x = "Year", 
+       y = "Percent Change Per Year", 
+       color = 'Spending Category:',
+       caption = "Data Sourced from: https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-02-13/readme.md \n
+       Read more about this data and explore: https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center",
+       title = "Mapping Historical Spending Change Over the Years") +
+  theme(
+        plot.title = element_text(hjust = 0.5, size = 14),
+        plot.caption = element_text(size = 5),
+        legend.position = "inside",
+        legend.position.inside = c(0.3, 0.8),
+        legend.key.spacing.x = unit(5, "pt"),
+        legend.key.spacing.y = unit(5, "pt"),
+        legend.text = element_text(margin = margin(l = 2)),
+        legend.box.background = element_rect(color = "black"),
+        legend.title.position = "top", 
+        legend.title= element_text(size = 8, hjust = 0.5))</code></pre>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Chi Chi Okezie, 2024<br> All content licensed under <i class="bi-badge-cc"></i> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">(CC BY-NC-SA 4.0)</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Site built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
