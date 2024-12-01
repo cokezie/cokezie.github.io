@@ -32,7 +32,9 @@ For me, I have enjoyed this experience and have learned a lot about how to creat
 
 ## Mac Mentors 
 
-The Mac Mentorship Program is a year-long mentoring program between Macalester students and high school juniors and seniors in the TRIO Upward Bound program at North Hennepin Community College (NHCC). The program begins in the spring semester and continues to the fall semester of the 2025 academic year. As a mentor, I will be working with the same group of mentees starting from their junior year to senior year. This program provides guidance and support to high school students, including integrating them into the college community. With this experience, I hope to learn about the difficulties that others face as they begin their college application and finally as they secure admission into college. Also, I hope to learn about securing the finance that is required for their education, including becoming acquainted with the common questions associated with college and what others find difficult about the experience. There is no question that with this experience, there is much to learn and skills to repurpose.
+The Mac Mentorship Program is a year-long mentoring program between Macalester students and high school juniors and seniors in the TRIO Upward Bound program at North Hennepin Community College (NHCC). The program begins in the fall semester mentoring senior students as they finalize applications and get ready for adjusting to college life. Then, in the spring, we focus our attention to students in their junior year of high school. In this, we guide the students as they looking for the right college, and as they craft their personal statement, look for scholarships, and this continues into the fall semester of their senior year. 
+
+I am happy to be a mentor as I have a lot to share from my college application process and college experience. With this experience, I get to advocate that while the college admissions process is not easy, it is incredibly rewarding. Furthermore, as someone who's perspective is not always advocated for, I am happy to share my unique perspective and use my experiences to help navigate any difficulties that others face as they begin their college application, secure admission into college, and in their preparation for the challenges that are to come with college. There is no question that with this experience, there is much to learn and skills to repurpose.
 
 ## Rondo Community Outreach Library - Teaching Assistant
 
@@ -45,3 +47,16 @@ In my position, I am tasked with answering questions, explaining concepts, and m
 **Credit:** https://www.macalester.edu/community-engagement/academiccivicengagement/historic-rondo-neighborhood/
 \
 **More information on Rondo:** https://libguides.mnhs.org/rondo/ov and https://reconnectrondo.com/vision/
+
+## Sankofa Facilatator 
+
+*In Black Ink*, a state-wide, grassroots, non-profit organization that creates spaces where the inter-generational stories about Minnesotans of African heritage can be shared, documented, and archived. *In Black Ink* provides publishing arts initiatives and opportunities to communities that have been disenfranchised historically and continue to be presently. Yearly, *In Black Ink* hosts an inter-generational, Black-centered gathering, centered around the Sankofa philosophy. 
+
+Within this opportunity I was able to facilitate meaningful and insightful conversations about issues pertinent to Black culture as a whole. By engaging in open and honest dialogue, I gained a deeper understanding of diverse perspectives, challenged my own biases, and developed stronger intercultural and inter-generational communication skills. 
+
+## Teaching Assistant (Preceptor)
+
+For the Introduction to Data Science (COMP 112) class, I work to hold office hour tutoring sessions, grade homework, and attend class. 
+
+In this, I have enhanced my technical and interpersonal skills tremendously. By assisting students, I have solidified my foundational understanding of core data science concepts. Furthermore, I have improved my problem-solving abilities and gained more expansive expertise within Rstudio. Additionally, I further developed effective communication and teaching skills, including the ability to explain complex ideas clearly, actively listen, and provide constructive feedback. This experience fostered professional and personal growth as well as teaching and collaborative skills.
+

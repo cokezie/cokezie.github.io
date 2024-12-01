@@ -2,7 +2,7 @@
 title: "Mapping Code Quality"
 image: featured.jpg
 categories:
-  - Data Entry
+  - Data Collection
   - Python Coding
   - Machine Learning
 about: 
@@ -18,4 +18,4 @@ From the analysis, we gained insight into the specific details that enhance our 
 
 **Product**:
 
-*Link to published paper coming soon, November 2024.*
+*Link to published paper coming soon, February 2024.*

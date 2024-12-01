@@ -1,9 +1,8 @@
 ---
-title: "Observing and Organizing Accessibility Defects"
+title: "Understanding Website Accessibility"
 image: featured.jpg
 categories:
   - Data Entry
-  - Collaborative Efforts
 about: 
   template: solana
   image: featured.jpg
@@ -11,10 +10,10 @@ about:
 
 One of the projects that I worked on with professor Markram Soui of the University of Michigan-Flint and Ms. Nesrine Mansouri, a University of Michigan-Flint doctoral student focused on analyzing common website accessibility issues.
 
-With this project, the aim was to strategize and configure a way to automatically detect website and application accessibility issues that may prevent people with disabilities from using them effectively. To do this, we utilized automatic accessibility testing automation tools such as WAVE Accessibility Checker to identify and fix accessibility issues of the evaluated applications. In our work, we explored 115 different websites across over 6 different fields, including education, transportation, healthcare, finance, news, social media, etc. From our analysis, we found over 50+ different accessibility issues of varying levels of issue severity.
+With this project, the aim was to strategize and configure a way to automate the fixing of website and application accessibility issues that may prevent people with disabilities from using them effectively. To do this, we utilized automatic accessibility testing automation tools such as WAVE Accessibility Checker to identify and fix accessibility issues of the evaluated applications. In our work, we explored 115 different websites across over 6 different fields, including education, transportation, healthcare, finance, news, social media, etc. From our analysis, we found over 50+ different accessibility issues of varying levels of issue severity.
 
-After compiling over 1000+ rows of data concerning the issue type, interface concerned, issue importance, issue occurrence number, WCAG (Web Content Accessibility Guidelines) level and category, proposed improvement according to WGAC standards, and more data, we sought to explore different research questions utilizing our compiled data. Through our data, we examined patterns of accessibility issues across fields and compared the number of visual components (structural elements and features) with the number of accessibility issues to explore the correlation between these. In addition to this, we proposed research questions exploring the co-occurrence of accessibility issues across fields, evaluated the compliance of these webpages to the WCAG categories of Perceivable, Operable, Understandable, and Robust, and measured their adherence to each of the WCAG 2.1 conformance levels (A, AA, AAA) per field. Among these subjects, we explored more than just this, all of which was composed within the papers that we had drafted within the research experience, which will be published soon.
+After compiling over 1000+ rows of data concerning the issue type, interface concerned, issue importance, issue occurrence number, WCAG (Web Content Accessibility Guidelines) level and category, proposed improvement according to WGAC standards, and more data, we sought to explore different research questions utilizing our compiled data. Through our data, we examined patterns of accessibility issues across fields and compared the number of visual components (structural elements and features) with the number of accessibility issues to explore the correlation between these. In addition to this, we proposed research questions exploring the co-occurrence of accessibility issues across fields, evaluated the compliance of these webpages to the WCAG categories of Perceivable, Operable, Understandable, and Robust, and measured their adherence to each of the WCAG 2.1 conformance levels (A, AA, AAA) per field. Among these subjects, we explored more than just this, all of which composed within papers drafted within the research experience, which will be published soon.
 
 **Product**:
 
-*Link to published paper coming soon, December 2024.*
+*Link to published paper coming soon, February 2024.*

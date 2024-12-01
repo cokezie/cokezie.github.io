@@ -76,6 +76,8 @@ p <- historical_spending %>%
 ggplotly(p,tooltip = 'text')
 ```
 
+\
+
 For this TidyTuesday, I have decided that I am going to use the Valentines day datasets, which comes from a Kaggle dataset uploaded by Suraj Das in 2021. The Kaggle user collected the data from here. This links is to the National Retail Federation's website. This foundation reports data collected from surveys taken by consumers on how they plan to celebrate Valentine's Day annually over the course of years, spanning 10+ years. In this, within this dataset we analyze the average amount of money spent per year on each individual item as a single unit of observation.
 
 Research Question: How does spending on different items for valentines vary yearly? Is there certain gifts that were popular during a certain year?
