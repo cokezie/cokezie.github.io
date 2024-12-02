@@ -2,8 +2,9 @@
 title: "So you think you recycle?" 
 image: featured.jpg
 categories:
-  - Data Collection 
-  - 
+  - Administrating Data Collection
+  - Data Extrapolation
+  - Rstudio Coding 
 about: 
   template: solana
   image: featured.jpg

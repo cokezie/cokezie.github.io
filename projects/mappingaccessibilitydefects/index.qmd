@@ -2,7 +2,7 @@
 title: "Understanding Website Accessibility"
 image: featured.jpg
 categories:
-  - Data Entry
+  - Administrating Data Collection
 about: 
   template: solana
   image: featured.jpg

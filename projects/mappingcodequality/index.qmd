@@ -2,7 +2,7 @@
 title: "Mapping Code Quality"
 image: featured.jpg
 categories:
-  - Data Collection
+  - Administrating Data Collection
   - Python Coding
   - Machine Learning
 about: 

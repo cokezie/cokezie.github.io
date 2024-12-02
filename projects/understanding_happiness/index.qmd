@@ -1,7 +1,8 @@
 ---
 title: "Understanding World Happiness"
 categories:
-  - R Coding
+  - Rstudio Coding 
+  - Data Extrapolation
 about: 
   template: solana
 ---
