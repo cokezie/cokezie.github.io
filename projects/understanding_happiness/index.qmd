@@ -7,73 +7,14 @@ about:
   template: solana
 ---
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.alt = "This graph displays 6 different graphs displaying each of the different factors that were taken account in which to determine the happiness score of a country, and thereby, if the country overall, decreased or increased in happiness. This graph only takes into account countries that we already know to have had major increases / decreases in happiness score, though we have filtered to unerstand them by how each of their factors have changed yearly. In this, utilizing linear regression lines to track the change. We observe economy_gdp_per_capita, has a positive correlation with happiness score in Venezuela. Also,  economic_gdp_per_capita has a positive correlation with happiness as we observe that in Romania, Hungary, Latvia and Gabon, as thier economic_gdp_per_capita increases, their happiness score increases significantly. We observe, Afganistan and Labanon's lack of freedom has a positive correlation with their decreased levels of happiness. Furthermore, in freedom, Romania and Honduras increased feelings of freedom which correlated with their increase in happiness score. Next, decreases in family / social support in Afghanistan contributed to their decreased levels of happiness. Lastly, a positive correlation between life expectancy and happiness is observed in Lebanon, where as life expectancy decreases, happiness also decreases. Though, the opposite is true in Sierra Leone, where as health/life_expectancy is increasing the change in happiness is decreasing,  and other countries and factors remain relatively inconclusive."}
-library(tidyverse)
-library(plotly)
-library(ggthemes)
+<IMG SRC="ggplot_happy.gif">
 
-data <- read_csv('happiness_over_time.csv')
+What is the significance of happiness in our current society and what factors contribute to making us happy? How can we measure happiness and better understand it? Happiness is a complex phenomenon to study as it is personal and subjective. What makes one individual happy might not be as significant to another. Since 2012, the Gallup World Poll has surveyed citizens of more than 137 countries across the globe on their life satisfaction to understand happiness and its determinants. By studying Gallup's data on country’s life satisfaction measures; happiness, GDP per capita, health expectancy, freedom, social support, corruption, generosity, we aim to understand happiness and its determinants worldwide.\
 
-data_sub <- data %>% 
-  drop_na(region) %>% 
-  group_by(country, region, year) %>% 
-  summarize(happiness_by_region = mean(happiness_score, na.rm = TRUE)) %>%
-  ungroup() %>% group_by(country) %>%
-  mutate(n = n()) %>%
-  filter(n == 10) %>%
-  mutate(change_in_happiness = happiness_by_region[year == 2024] - happiness_by_region[year == 2015]) %>% 
-  mutate(change_in_happiness_cat = case_when(change_in_happiness > 1.1 ~ 'Increased', change_in_happiness < -1.1 ~'Decreased', TRUE ~'Stable')) 
+In this, we firstly thought about what is found by measuring the overall change in happiness score over time (pictured above). Based on the figure, we can infer that the distribution of happiness since 2015 has changed. There is a slight rightward shift in happiness score distribution suggesting that a number of countries are scoring higher happiness levels in general over the last decade. Originally, the median happiness score was 5.23, this shifting to 5.79 in 2024, a +0.56 change. Similarly, the mean happiness score between 2015 and 2024 maintains a +0.152 change. Many countries have moved from having happiness scores in the middle range of 3.5 to 6.5 to slightly higher tier in the 5.5 - 7.0 range. This increase is cause to dive deeper into investigating whether all countries alike are experiencing this increase in happiness, or if this **is unique to certain countries**, and then to further understand, **what factors contribute to this net increase in happiness.**
 
-p3 <- data_sub %>%  
-  filter(change_in_happiness_cat %in% c("Increased", "Decreased")) %>% 
-  inner_join(data) %>% 
-  pivot_longer(cols = c(economy_gdp_per_capita, family,  freedom, health_life_expectancy,  trust_government_corruption, generosity), names_to = "factor", values_to = "value") %>% 
-  drop_na(region) %>% 
-  group_by(country, region, year) %>% 
-  mutate(tooltip_text = str_c("Year: ",year,
-                              "\n Country: ",country,
-                              "\n", factor, " score: ", round(value,4),
-                              "\n Change in Happiness from 2015 - 2024: ",change_in_happiness_cat)) %>%
-  ggplot(aes(text = tooltip_text))+
-  geom_line(aes(x = year, y = value, color = change_in_happiness_cat, group = country), alpha = 0.75) +
-  facet_wrap(~factor) +
-  scale_x_continuous(breaks=seq(2015,2024,by = 2)) +
-  scale_color_manual(values = c('red', '#65e6a8')) +
-  theme_clean() +
-  labs(x = "Year", 
-       y = "Values", 
-       color = "Change in happiness", 
-       title = "Understanding What Factors go into Happiness Score", 
-       caption = "Figure only displaying countries with changes greater than +/- 1.1 unit change
-       \n Data collected from the World Happiness Report at https://worldhappiness.report/data/") +
-  theme(legend.title = element_text(hjust = 0.5, face = 'bold'), 
-        plot.title = element_text(hjust = 0.5)) 
-
-p3
-
-ggplotly(p3, tooltip = "text")
-```
-
-Within this research we aimed to understand *What explains differences in happiness across the globe?* In this, also considering if there are there certain regions of the world that are happier than others? What factors are the biggest contributors in a country's happiness? What world events are going on globally that could be contributing to a country's happiness? ( COVID-19, wars, etc) 
-
-In this, we firstly thought about economic development as a significant indicator of a country's happiness. However, economic development involves more than just considering GDP and getting richer. Economic development as a whole, involves the development of economic, social and environmental institutions. Both economic and social development are a goal for countries around the world, and happiness levels are intertwined with wellbeing and development. We wanted to explore the concept of happiness, its determinants, and how and why this differs across the globe. Each country has their own sociological perception of 'good' well-being and it would be interesting to explore whether perceived social support factors such as family/ social support, generosity, and freedom, have more to do with whether a person feels a 'good' level of well being.
-
-This graph studies a subset of countries, which we deemed to have the most drastic changes in happiness score within the years studied (2015 - 2024). There overall decrease/increase in level of happiness is indicated by 'Change in Happiness from 2015 - 2024.'
-
-We observe economy_gdp_per_capita, has a positive correlation with happiness score in Venezuela. Also, economic_gdp_per_capita has a positive correlation with happiness as we observe that in Romania, Hungary, Latvia and Gabon, as thier economic_gdp_per_capita increases, their happiness score increases significantly.
-
-We observe, Afganistan and Labanon's lack of freedom has a positive correlation with their decreased levels of happiness,
-
-Furthermore, in freedom, Romania and Honduras increased feelings of freedom which correlated with their increase in happiness score.
-
-Next, decreases in family / social support in Afghanistan contributed to their decreased levels of happiness.
-
-Lastly, a positive correlation between life expectancy and happiness is observed in Lebanon, where as life expectancy decreases, happiness also decreases.
-
-Though the opposite is true in Sierra Leone, where as health/life_expectancy is increasing the change in happiness is decreasing, and other countries and factors remain inconclusive.
-
-This displays that more research needs to be done on a country by country basis to determine what is going on which might be affecting the results we see.
+We further explore these questions and solve our research question within the final product. 
 
 **Product**:
 
-*Project in progress.*
+<a href="final_proj.html">Final Project</a>
