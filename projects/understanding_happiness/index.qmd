@@ -17,4 +17,4 @@ We further explore these questions and solve our research question within the fi
 
 **Product**:
 
-<a href="final_proj.html">Final Project</a>
+<a href="final_proj_comp112.html">Final Project</a>
