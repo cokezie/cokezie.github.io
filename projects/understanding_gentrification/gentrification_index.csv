@@ -1,0 +1,8 @@
+region ,neighborhood ,ZCTA ,property_value,racial_change,income_change,vaccancy_change,gentrification_index,greeness
+Northeast Minneapolis,Logan Park Neighborhood,55418,2,4,3,4,13,0
+Northeast Minneapolis,Shrederin Neighborhood ,55413,4,3,4,3,14,4
+South Minneapolis, East Phillips Neighborhood,55404,2,2,2,0,6,1
+South Minneapolis, East Phillips Neighborhood,55407,4,0,1,3,8,0
+Hamline-Midway,Hamline-Midway Neighborhood ,55104,0,1,1,2,4,2
+ Frogtown/Thomas-Dale,Frogtown/Thomas-Dale Neighborhood,55103,0,3,0,3,6,3
+North Minneapolis,Willard-Hay Neighborhood,55411,3,4,2,4,13,0

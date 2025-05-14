@@ -1,0 +1,16 @@
+---
+title: "Understanding Green Gentrification"
+categories:
+  - Rstudio Coding 
+  - Data Extrapolation
+about: 
+  template: solana
+---
+
+<img src="graph.png" alt="Graph depicting Gentrification vs. Greenness with a slight correlation between the variables" width="650" height="550">
+
+Final Project for ENVI 277: Sustainable Cities course. 
+
+**Product**:
+
+<a href="sus_final.html">Final Project</a>
