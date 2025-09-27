@@ -18,6 +18,8 @@ website:
           - tidytuesdays.qmd
       - href: experiences.qmd
         text: Leadership
+      - href: location.qmd
+        text: Where is Chi Chi?
         
   page-footer:
       left: |

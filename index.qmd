@@ -13,13 +13,16 @@ about:
     - icon: github
       text: Github
       href: https://github.com/cokezie
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/chukwubunkem-chi-chi-okezie-180075366/
 ---
 
 :::{#intro-heading}
 
 ## About Me 
 
-Chukwubunkem (Chi-Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. When not studying, Chi-Chi enjoys spending time reading, knitting, baking, enjoying nature, and much more! 
+Chukwubunkem (Chi-Chi) Okezie is a current junior student of Macalester College in St. Paul, Minnesota. When not studying, Chi-Chi enjoys spending time reading, knitting, baking, enjoying nature, and much more! 
 
 ## Education
 
@@ -27,20 +30,20 @@ Chukwubunkem (Chi-Chi) Okezie is a current sophomore student of Macalester Colle
 
 B.A in Sociology & Statistics, Minor in Biology 
 
-August 2023 - May 2027 (expected)
+August 2023 - May 2027 
 
 ## Recent Experiences
 
-**Macalester College** | Dept. of Environmental Studies
+**Northumbria University** |  Centre for Doctoral Training 
 
-Research Assistant | September 2024 - Present
+(CDT) in Citizen-Centred Artificial Intelligence (CCAI) 
+
+Research Assistant | May 2025 - June 2025
 
 <br>
 
-**University of Michigan-Flint** 
+**Macalester College** | Dept. of Environmental Studies
 
-College of Innovation and Technology 
-
-Research Assistant | May 2024 - August 2024
+Research Assistant | September 2024 - March 2025
 
 :::

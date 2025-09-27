@@ -130,28 +130,28 @@
     "href": "index.html",
     "title": "Chukwubunkem (Chi Chi) Okezie",
     "section": "",
-    "text": "Email\n  \n  \n    \n     Github\n  \n\n  \n  \n\n\nChukwubunkem (Chi-Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. When not studying, Chi-Chi enjoys spending time reading, knitting, baking, enjoying nature, and much more!\n\n\n\nMacalester College | St. Paul, MN\nB.A in Sociology & Statistics, Minor in Biology\nAugust 2023 - May 2027 (expected)\n\n\n\nMacalester College | Dept. of Environmental Studies\nResearch Assistant | September 2024 - Present\n\nUniversity of Michigan-Flint\nCollege of Innovation and Technology\nResearch Assistant | May 2024 - August 2024"
+    "text": "Email\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \n\n\nChukwubunkem (Chi-Chi) Okezie is a current junior student of Macalester College in St. Paul, Minnesota. When not studying, Chi-Chi enjoys spending time reading, knitting, baking, enjoying nature, and much more!\n\n\n\nMacalester College | St. Paul, MN\nB.A in Sociology & Statistics, Minor in Biology\nAugust 2023 - May 2027\n\n\n\nNorthumbria University | Centre for Doctoral Training\n(CDT) in Citizen-Centred Artificial Intelligence (CCAI)\nResearch Assistant | May 2025 - June 2025\n\nMacalester College | Dept. of Environmental Studies\nResearch Assistant | September 2024 - March 2025"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Chukwubunkem (Chi Chi) Okezie",
     "section": "",
-    "text": "Chukwubunkem (Chi-Chi) Okezie is a current sophomore student of Macalester College in St. Paul, Minnesota. When not studying, Chi-Chi enjoys spending time reading, knitting, baking, enjoying nature, and much more!"
+    "text": "Chukwubunkem (Chi-Chi) Okezie is a current junior student of Macalester College in St. Paul, Minnesota. When not studying, Chi-Chi enjoys spending time reading, knitting, baking, enjoying nature, and much more!"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Chukwubunkem (Chi Chi) Okezie",
     "section": "",
-    "text": "Macalester College | St. Paul, MN\nB.A in Sociology & Statistics, Minor in Biology\nAugust 2023 - May 2027 (expected)"
+    "text": "Macalester College | St. Paul, MN\nB.A in Sociology & Statistics, Minor in Biology\nAugust 2023 - May 2027"
   },
   {
     "objectID": "index.html#recent-experiences",
     "href": "index.html#recent-experiences",
     "title": "Chukwubunkem (Chi Chi) Okezie",
     "section": "",
-    "text": "Macalester College | Dept. of Environmental Studies\nResearch Assistant | September 2024 - Present\n\nUniversity of Michigan-Flint\nCollege of Innovation and Technology\nResearch Assistant | May 2024 - August 2024"
+    "text": "Northumbria University | Centre for Doctoral Training\n(CDT) in Citizen-Centred Artificial Intelligence (CCAI)\nResearch Assistant | May 2025 - June 2025\n\nMacalester College | Dept. of Environmental Studies\nResearch Assistant | September 2024 - March 2025"
   },
   {
     "objectID": "tidytuesdays/tidytuesdays10_24/index.html",
@@ -159,5 +159,19 @@
     "title": "Tidy Tuesdays Submission 10 / 24",
     "section": "",
     "text": "For this TidyTuesday, I have decided that I am going to use the Valentines day datasets, which comes from a Kaggle dataset uploaded by Suraj Das in 2021. The Kaggle user collected the data from here. This links is to the National Retail Federation’s website. This foundation reports data collected from surveys taken by consumers on how they plan to celebrate Valentine’s Day annually over the course of years, spanning 10+ years. In this, within this dataset we analyze the average amount of money spent per year on each individual item as a single unit of observation.\nResearch Question: How does spending on different items for valentines vary yearly? Is there certain gifts that were popular during a certain year?\nThe figure pictured depicts the relationship between the change in spending of Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards and Inflation_rate during Valentines day over the course of the years 2010 to 2022. We observe different colored lines for each item that we are tracking the change in spending of.\nOverall, the lines follow a overall net positive trend with Jewelry as the steepest line. This compared with an interest rate line which maps the percent of interest change over the years, which the line for GreetingCards and GiftCards seem to follow similar trends with. This observation indicating that the amount of money spent on GreetingCards and GiftCards has remained fairly consistent, comparatively.\nIn the opposite fashion, we find that the amount spent on jewelry over the years varies greatly by year with no specific pattern. With this, we would need to conduct further research on surrounding factors including jewelry specific inflation rates, and jewelry trends over the years, among more to find further variables that are able to explain the pattern we observe in the percent change of spending on jewelry from the years 2010 to 2022.\nFlowers also seemed to be close in consistency to the inflation rate’s slope. In this, we can infer that people spend the same amount of flowers yearly, though, this price went up due to inflation and not due to people buying more (and/or more expensive!) flowers for their loved ones.\nFurthermore, Candy and Jewelry seem to be very variable dependent on the year as we observe the percent change at different levels throughout the years, though the two stay pretty consistently popular for Valentines Day Gifts. We also see these two struck the hardest (negatively) by the COVID pandemic of 2021. During 2021, it seems as though it was more popular to spend more money on GiftCards and Clothing for your loved ones’ valentines day.\nlibrary(tidyverse)\nlibrary(ggthemes)\nlibrary(ggthemes)\n\nhistorical_spending &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-13/historical_spending.csv')\n\ninflation_data &lt;- data.frame(\n  Year = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022),\n  inflation_rate = c(12.33, 12.72, 12.98, 13.17, 13.39, 13.4, 13.57, 13.86, 14.21, 14.46, 14.63, 15.32, 16.55)\n)\n\nhistorical_spending &lt;- inflation_data %&gt;% \n  left_join(historical_spending, by = \"Year\")\n\np &lt;- historical_spending %&gt;% \n    pivot_longer(cols = c(Flowers, Candy, Jewelry, GreetingCards, Clothing, GiftCards, inflation_rate), \n                 names_to = \"spending_on\", \n                 values_to = \"percentage\") %&gt;%\n  group_by(spending_on) %&gt;%\n  mutate(percent_change = (percentage - percentage[Year == 2010])/percentage[Year == 2010]) %&gt;%\n      ggplot(aes(x = Year, y = percent_change, color = spending_on)) +\n    geom_line() +\n  geom_point() +\n  theme_wsj() +\n  scale_x_continuous(breaks=seq(2010,2022,by =2)) + \n  labs(x = \"Year\", \n       y = \"Percent Change Per Year\", \n       color = 'Spending Category:',\n       caption = \"Data Sourced from: https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-02-13/readme.md \\n\n       Read more about this data and explore: https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center\",\n       title = \"Mapping Historical Spending Change Over the Years\") +\n  theme(\n        plot.title = element_text(hjust = 0.5, size = 14),\n        plot.caption = element_text(size = 5),\n        legend.position = \"inside\",\n        legend.position.inside = c(0.3, 0.8),\n        legend.key.spacing.x = unit(5, \"pt\"),\n        legend.key.spacing.y = unit(5, \"pt\"),\n        legend.text = element_text(margin = margin(l = 2)),\n        legend.box.background = element_rect(color = \"black\"),\n        legend.title.position = \"top\", \n        legend.title= element_text(size = 8, hjust = 0.5))"
+  },
+  {
+    "objectID": "location.html",
+    "href": "location.html",
+    "title": "Chi Chi Okezie",
+    "section": "",
+    "text": "If you’re curious, where in the world Chi Chi is at the moment, here are some indicators of my current endevors.\n\n\n\n\n\n\n\n\nRead more about my experiences in Cape Town: here and here!"
+  },
+  {
+    "objectID": "location.html#where-in-the-world-is-chi-chi-right-now",
+    "href": "location.html#where-in-the-world-is-chi-chi-right-now",
+    "title": "Chi Chi Okezie",
+    "section": "",
+    "text": "If you’re curious, where in the world Chi Chi is at the moment, here are some indicators of my current endevors.\n\n\n\n\n\n\n\n\nRead more about my experiences in Cape Town: here and here!"
   }
 ]

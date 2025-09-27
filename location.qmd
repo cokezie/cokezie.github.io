@@ -1,0 +1,36 @@
+---
+ Title: "Where is Chi Chi?"
+---
+
+## Where in the world is Chi Chi right now? 
+
+If you're curious where in the world Chi Chi is at the moment, here are some indicators of my current endevors. 
+
+```{r echo = FALSE}
+library(leaflet)
+
+# Coordinates for Sarah Baartman Hall
+uct_coords <- c(-33.9570, 18.4607)
+
+# Create leaflet map
+leaflet() %>%
+  addTiles() %>%
+  setView(lng = uct_coords[2], lat = uct_coords[1], zoom = 16) %>%
+  addMarkers(
+    lng = uct_coords[2],
+    lat = uct_coords[1],
+    popup = "Sarah Baartman Hall, University of Cape Town",
+    icon = makeIcon(
+      iconUrl = "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png",
+      shadowUrl = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+      iconWidth = 25, iconHeight = 41,
+      iconAnchorX = 12, iconAnchorY = 41,
+      shadowWidth = 41, shadowHeight = 41
+    )
+  )
+```
+
+\
+
+Read more about my experiences in Cape Town: [here](https://www.iesabroad.org/correspondents/chi-chi-okezie) and [here](https://www.reachtheworld.org/chi-chis-journey-south-africa)! 
+
