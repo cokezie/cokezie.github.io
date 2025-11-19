@@ -6,7 +6,7 @@ website:
   title: "Chi Chi Okezie"
   bread-crumbs: true
   navbar:
-    background: primary
+    background: secondary
     search: true
     left:
       - href: index.qmd
@@ -18,8 +18,7 @@ website:
           - tidytuesdays.qmd
       - href: experiences.qmd
         text: Leadership
-      - href: location.qmd
-        text: Where is Chi Chi?
+      
         
   page-footer:
       left: |
@@ -31,7 +30,7 @@ website:
 
 format:
   html:
-    theme: minty
+    theme: lux
     css: styles.css
     toc: true
 
