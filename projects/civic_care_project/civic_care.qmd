@@ -5,6 +5,7 @@ categories:
   - Citizen-Centered AI
   - Environmental Care
   - Qualitative Data Analysis
+  - Quantitative Data Analysis 
 about: 
   template: solana
   image: featured.jpg
@@ -12,7 +13,9 @@ about:
 
 From May to July 2025, I participated in the IRES REU: Citizen-Centered AI Summer Research Program. In this program, I worked alongside a cohort of seven students ranging from undergraduate to PhD levels on several projects jointly organized by Indiana University’s Luddy School of Informatics, Computing, and Engineering and Northumbria University’s UKRI AI Centre for Doctoral Training in Citizen-Centred Artificial Intelligence (CCAI). The program was coordinated by Dr. Colin M. Gray and Dr. Austin L. Toombs, associate professors at Indiana University Bloomington’s Luddy School.
 
-During my time in the program, I contributed to the project "Civic Care in Place: Exploring Human and Environmental Bonds through Subtle Technologies." This project worked to explores how subtle, often acts of care between community members might be able to be extended to our public spaces and natural environments. This project works in collaboration with the Stanley SuDS+ (Sustainable Drainage Systems) initiative in Stanley, County Durham, United Kingdom to examine how this community-led effort to maintain alternative mechanisms of care can reflect and nurture deeper patterns of care in the community, between others, for a certain place, and/or for the planet.
+During my time in the program, I contributed to the project "Civic Care in Place: Exploring Human and Environmental Bonds through Subtle Technologies" led by dr. anna L Carter. This project worked to explores how subtle, often acts of care between community members might be able to be extended to our public spaces and natural environments. This project works in collaboration with the Stanley SuDS+ (Sustainable Drainage Systems) initiative in Stanley, County Durham, United Kingdom to examine how this community-led effort to maintain alternative mechanisms of care can reflect and nurture deeper patterns of care in the community, between others, for a certain place, and/or for the planet.
+
+After the program, we continued work on the project, crafting a research paper submitted and accepted CHI '26 as well as a report summarizing our data collection. 
 
 More information on Stanley SuDS+ [here](https://stanleysuds.co.uk/). 
 
@@ -21,3 +24,5 @@ More information on our visit to Stanley, County Durham [here](https://stanleysu
 Product:
 
 Final presentation: <a href="Civic Care in Place Wrap Up.pdf">PDF File.</a>
+
+Data report: <a href="Survey Civic Care in Place Exploring Human and Environmental Bonds through Subtle Technologies (1).pdf">PDF File.</a>
