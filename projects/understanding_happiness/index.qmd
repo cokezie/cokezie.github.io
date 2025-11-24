@@ -7,14 +7,13 @@ about:
   template: solana
 ---
 
-<IMG SRC="ggplot_happy.gif">
+<img src="ggplot_happy.gif" width="800" height="600"/>
 
 What is the significance of happiness in our current society and what factors contribute to making us happy? How can we measure happiness and better understand it? Happiness is a complex phenomenon to study as it is personal and subjective. What makes one individual happy might not be as significant to another. Since 2012, the Gallup World Poll has surveyed citizens of more than 137 countries across the globe on their life satisfaction to understand happiness and its determinants. By studying Gallup's data on country’s life satisfaction measures; happiness, GDP per capita, health expectancy, freedom, social support, corruption, generosity, we aim to understand happiness and its determinants worldwide.\
 
-
 In this, we firstly thought about what is found by measuring the overall change in happiness score over time (pictured above). Based on the figure, we can infer that the distribution of happiness since 2015 has changed. There is a slight rightward shift in happiness score distribution suggesting that a number of countries are scoring higher happiness levels in general over the last decade. Originally, the median happiness score was 5.23, this shifting to 5.79 in 2024, a +0.56 change. Similarly, the mean happiness score between 2015 and 2024 maintains a +0.152 change. Many countries have moved from having happiness scores in the middle range of 3.5 to 6.5 to slightly higher tier in the 5.5 - 7.0 range. This increase is cause to dive deeper into investigating whether all countries alike are experiencing this increase in happiness, or if this **is unique to certain countries**, and then to further understand, **what factors contribute to this net increase in happiness.**
 
-We further explore these questions and solve our research question within the final product. 
+We further explore these questions and solve our research question within the final product.
 
 **Product**:
 
