@@ -14,6 +14,10 @@ In Macalester's transformative pedagogies institute, I work with a team under th
 
 Additionally, this program initiates learning how to navigate conversations about race, upbringing, and culture in a way that appreciates, validates, and creates learning opportunities for every person's individual experience, no matter how different it might be from our own. I will close with a quote that I like from a Macalester graduate, Gabby Whitehurst, who said, "In a society that runs off of complacency and a stunted imagination, building your capacity to just think is extremely powerful. [Acting] without introspection doesn't necessarily lead to growth and is often reactionary, rather than being rooted in omnipresent love for human rights," and within this Transformative Pedagogies Institute, I have a personal goal to implement these words within my work and life.
 
+More information about this initiative [here](https://www.macalester.edu/serie-center/transforming-our-pedagogies/). 
+
+Read my full reflection from my experience [here](https://docs.google.com/document/d/1Ljwy6ZgMXN1Dst37n0Hh1-yahdy0i9H63c6WsVhUHYo/edit?usp=sharing).
+
 ## Skyline Towers Volunteer 
 
 As someone who deeply values family and a caring community, I found it extremely hard to leave my family, uncles, cousins, and friends to move from Detroit, MI, to St. Paul, MN. This was hard because I was going to miss the people that I have loved and known all my life. I wasn't sure if I would be able to make connections like that again. As a result of this experience, I made it a mission to commit to finding, if not creating, a caring community of my own. I was able to find this through volunteering with the Commonbond communities within the Skyline Tower of St. Paul. Commonbond is an affordable housing nonprofit that serves low-income communities in Minnesota, Wisconsin, Iowa, and South Dakota. My commitment to serving these communities in my little way is a welcome opportunity, which I would not gain any other way.
@@ -48,7 +52,7 @@ In my position, I am tasked with answering questions, explaining concepts, and m
 \
 **More information on Rondo:** https://libguides.mnhs.org/rondo/ov and https://reconnectrondo.com/vision/
 
-## Sankofa Facilatator 
+## Sankofa Event Facilatator 
 
 *In Black Ink*, is a state-wide, grassroots, non-profit organization that creates spaces where the inter-generational stories of Minnesotans of African heritage can be shared, documented, and archived. *In Black Ink* provides publishing arts initiatives and opportunities to communities that have been disenfranchised historically and continue to suffer the consequences on this presently. Yearly, *In Black Ink* hosts an inter-generational, Black gathering, centered around the Sankofa philosophy. 
 
@@ -58,3 +62,37 @@ Within this opportunity I was able to facilitate meaningful and insightful conve
 
 For the Introduction to Data Science (COMP 112) class, I work to hold drop-in tutoring sessions, grade homework, and assist students within class time. By assisting students, I have enhanced my technical and interpersonal skills tremendously. I have also solidified my foundational understanding of core data science concepts. Furthermore, I have improved my problem-solving abilities and gained more expansive expertise within Rstudio. Lastly, I developed effective communication and teaching skills, including the ability to explain complex ideas clearly, actively listen, and provide constructive feedback. This experience fostered both my professional and personal growth.
 
+## IES Abroad Correspondent
+
+Full detailed description *coming soon*. 
+
+More information [here.](https://www.iesabroad.org/correspondents/chi-chi-okezie)
+
+## Reach The World Blogger 
+
+While studying abroad in Cape Town, South Africa, I wrote about my experiences on the Reach the World platform. On this platform, I partnered with a fourth grade math classroom to inspire these young students and young students everywhere to stay curious about their surroundings and the greater world beyond them. By sharing my experiences, I hoped that my stories encouraged them to dream big, imagine themselves as travelers coming along my journey with me, and to notice connections between my experiences and their own lives.
+
+Access my blog posts [here.](https://www.reachtheworld.org/chi-chis-journey-south-africa)
+
+Read more about Reach the World and their mission [here.](https://about.reachtheworld.org/what-we-do/)
+
+
+## Sister's Inc. Volunteer
+
+While in Cape Town, South Africa, I worked as a volunteer for the Sister's Incorporated organization. 
+
+Over the past 60 years in Cape Town, Sister's Incorporated has worked to protect, support, and empower single women and their children who are survivors of domestic violence, abuse, and the stigmatization that comes with this. The organization provides a safe place for women and children, emphasizing non-judgmental care and empowerment for every individual who enters its doors. As I volunteered here, I can speak to this as I feel that during my time here I also felt wholly embraced, welcomed and cared for upon entrance and even more so as I got to know the residents and staff members. 
+
+Read more about Sisters Incorporated and the work that they do [here.](https://sisters.org.za/who-we-are/)
+
+## Langa High School Tutor 
+
+While in Cape Town, South Africa, I worked as a volunteer for Langa High School, working to teach Maths and English saturday sessions. 
+
+Established in 1937, Langa High School is the oldest Black secondary school in South Africa. During the 1970s and 1980s, students at Langa High School were often involved in political activism and uprisings making the school a significant site for understanding the experiences and resilience of Black South Africans during apartheid. While the school's mission is not explicitly stated on its website, a mural on one of its walls reads, “Enter to learn, leave to serve.” This phrase, discussed in Betts (2020), reflects a guiding ethos that encourages students to use the knowledge they gain in school to serve and uplift the Langa community. As Betts (2020) explains, the phrase establishes a precedent for each student to go forth into their community with the knowledge gained from the school, to then be of service to others, enhancing the lives of others, and creating better citizens.
+
+Langa High's mission and practice are shaped by the broader context of Langa Township, established in 1927 as one of the first areas in Cape Town designated for Africans under segregationist urban planning. The township was intentionally designed with strict spatial control giving the community limited access to multiple roads that could be blocked during times of unrest, reflecting the apartheid state’s broader strategy of containment and surveillance (Musemwa, 1993). Historically, residents of Langa faced systemic deprivation, including high rents, poor transport access, and inadequate municipal services (Musemwa, 1993). Despite these constraints, Langa became a focal point for social and political resistance, and the high school has served as an educational and symbolic space for empowerment within this marginalized community.
+
+Betts, B. (2020) Enter to learn, leave to serve, Tieonline.com. Available at: https://www.tieonline.com/article/2679/enter-to-learn-leave-to-serve (Accessed: October 29, 2025).
+
+ Musemwa, M. (1993) Aspects of the social and political history of Langa Township, Cape Town, 1927-1948, Uct.ac.za. Available at: https://open.uct.ac.za/items/ef4ec635-f6fa-4aa3-bbd5-b09c80ed7fa8 (Accessed: October 29, 2025).

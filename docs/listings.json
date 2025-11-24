@@ -9,11 +9,13 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/civic_care_project/civic_care.html",
       "/projects/understanding_happiness/index.html",
       "/projects/mappingaccessibilitydefects/index.html",
       "/projects/understanding_gentrification/index.html",
       "/projects/SurveyDataCollection/index.html",
-      "/projects/mappingcodequality/index.html"
+      "/projects/mappingcodequality/index.html",
+      "/projects/yras_misinfo_disinfo/index.html"
     ]
   }
 ]

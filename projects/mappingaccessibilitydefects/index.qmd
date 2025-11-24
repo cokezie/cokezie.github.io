@@ -16,4 +16,6 @@ After compiling over 1000+ rows of data concerning the issue type, interface con
 
 **Product**:
 
-*Link to published paper coming soon, February 2024.*
+*Link to published paper coming soon.*
+
+Final Presentation: <a href="Last Sprint Goal_ Web Accessibilty .pdf">PDF File.</a>
