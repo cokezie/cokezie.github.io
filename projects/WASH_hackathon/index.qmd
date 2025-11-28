@@ -1,0 +1,27 @@
+---
+title: "Advocating for Proper Water, Sanitation and Hygiene Facilities Globally"
+image: featured.jpg
+categories:
+  - Reproucible Data Science 
+  - Hackathon
+  - Quantitative Data Analysis
+about: 
+  template: solana
+  image: featured.jpg
+---
+
+From August to November 2025, I had the privilege of virtually participating in the FAIR Forward 2025 Workshop & Hackathon Series, a program designed to build future data scientist's understanding of equitable, transparent, and ethical data science. Over several months, this series pushed me to think critically not only about how data is used, but about how it is structured, shared, and stewarded in ways that promote equity and accessibility.
+
+The program, hosted by Dr. Allissa Dillman and Padmashri Saravanan, focused on centered using FAIR (Findable, Accessible, Interoperable, and Reusable) principles to analyze scientific and healthcare datasets. These principles form the foundation for data practices that support open science and reproducible research. Throughout the series, we engaged in hands-on workshops that introduced tools, workflows, and computational practices for preparing and analyzing data in ways that adhere to FAIR standards. We learned how to evaluate datasets for FAIRness, how to improve metadata documentation, and how thoughtful data design can empower researchers across disciplines to build responsibly on one another's work.
+
+To this, my team ([**Courtney-Grace N.**](https://www.linkedin.com/in/courtney-graceneizer/), Darren Lee, [**Shivani Pawar**](https://www.linkedin.com/in/shivani-pawar-68248621b/), and I) placed second in the hackathon. Our project worked to understand: What factors of water supply, sanitation, and hygiene (WASH) are the biggest contributors to a country’s infant mortality rate? Wo answer this, we integrated [open-source healthcare, demographic, and environmental datasets](https://www.who.int/data/inequality-monitor/data#PageContent_C691_Col00) and evaluated each for FAIR compliance. We explored variables including access to improved water sources, sanitation infrastructure, wastewater management, handwashing facilities, and hygiene interventions. Our analysis found that lack of proper hygiene services was the strongest predictor of elevated infant mortality across countries globally. This conclusion was also supported by [literature](https://pubmed.ncbi.nlm.nih.gov/29537671/) that we had found. This finding also helped to highlight a critical public health gap: hygiene facilities being frequently deprioritized relative to water and sanitation, despite their combined direct connection to preventable infant deaths.
+
+In our final presentation, we issued a call to action for policymakers, public health leaders, and global development organizations to prioritize equitable access to hygiene infrastructure. Simply improving hygiene services could dramatically reduce preventable infant mortality and improve long-term health outcomes in these communities.
+
+A huge thank-you to my teammates and the organizers for making this experience so meaningful. It was extremely rewarding to collaborate across disciplines and expertise to create this project below.
+
+Product:
+
+Final presentation: <a href="Civic Care in Place Wrap Up.pdf">PDF File.</a>
+
+[Github Repository](https://github.com/BioDataSage/ff-water-quality)
