@@ -3,6 +3,7 @@ title: "Understanding Green Gentrification"
 categories:
   - Rstudio Coding 
   - Data Extrapolation
+date: 05/11/2025
 about: 
   template: solana
 ---

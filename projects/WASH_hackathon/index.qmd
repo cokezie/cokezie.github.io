@@ -5,6 +5,7 @@ categories:
   - Reproucible Data Science 
   - Hackathon
   - Quantitative Data Analysis
+date: 11/02/2025
 about: 
   template: solana
   image: featured.jpg

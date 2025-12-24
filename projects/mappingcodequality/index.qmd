@@ -5,6 +5,7 @@ categories:
   - Administrating Data Collection
   - Python Coding
   - Machine Learning
+date: 08/02/2024
 about: 
   template: solana
   image: featured.jpg

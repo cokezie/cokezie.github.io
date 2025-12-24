@@ -5,6 +5,7 @@ categories:
   - Administrating Data Collection
   - Data Extrapolation
   - Rstudio Coding 
+date: 05/11/2025
 about: 
   template: solana
 ---

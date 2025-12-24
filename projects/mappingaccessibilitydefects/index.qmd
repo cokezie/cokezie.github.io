@@ -3,6 +3,7 @@ title: "Understanding Website Accessibility"
 image: featured.jpg
 categories:
   - Administrating Data Collection
+date: 08/02/2024
 about: 
   template: solana
   image: featured.jpg

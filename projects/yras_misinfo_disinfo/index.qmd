@@ -2,15 +2,15 @@
 title: "Bridging AI Literacy Gaps in YRAS Populations"
 image: featured.jpg
 categories:
-  - Elementary Education
   - Cirriculum Development
   - Citizen-Centered AI 
+date: 06/23/2025
 about: 
   template: solana
   image: featured.jpg
 ---
 
-From May to July 2025, I participated in the IRES REU: Citizen-Centered AI Summer Research Program. In this program, I worked alongside a cohort of seven students ranging from undergraduate to PhD levels on several projects jointly organized by Indiana University’s Luddy School of Informatics, Computing, and Engineering and Northumbria University’s UKRI AI Centre for Doctoral Training in Citizen-Centred Artificial Intelligence (CCAI). The program was coordinated by Dr. Colin M. Gray and Dr. Austin L. Toombs, associate professors at Indiana University Bloomington’s Luddy School.
+From May to June 2025, I participated in the IRES REU: Citizen-Centered AI Summer Research Program. In this program, I worked alongside a cohort of seven students ranging from undergraduate to PhD levels on several projects jointly organized by Indiana University’s Luddy School of Informatics, Computing, and Engineering and Northumbria University’s UKRI AI Centre for Doctoral Training in Citizen-Centred Artificial Intelligence (CCAI). The program was coordinated by Dr. Colin M. Gray and Dr. Austin L. Toombs, associate professors at Indiana University Bloomington’s Luddy School.
 
 During my time in the program, I contributed to the project "Misinformation/Disinformation and Generative AI: Building Young Refugees' Skills and Capacities,” led by Dr. Reem Refaat Talhouk. This work focused on supporting young refugees and asylum seekers in developing their understanding of misinformation, disinformation, generative AI, and responsible AI practices.
 

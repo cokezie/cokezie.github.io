@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -189,7 +189,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbg==">Administrating Data Collection <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q2lycmljdWx1bSUyMERldmVsb3BtZW50">Cirriculum Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2l0aXplbi1DZW50ZXJlZCUyMEFJ">Citizen-Centered AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGF0YSUyMEV4dHJhcG9sYXRpb24=">Data Extrapolation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RWxlbWVudGFyeSUyMEVkdWNhdGlvbg==">Elementary Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW52aXJvbm1lbnRhbCUyMENhcmU=">Environmental Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGFja2F0aG9u">Hackathon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9uJTIwQ29kaW5n">Python Coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhbGl0YXRpdmUlMjBEYXRhJTIwQW5hbHlzaXM=">Qualitative Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhbnRpdGF0aXZlJTIwRGF0YSUyMEFuYWx5c2lz">Quantitative Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm91Y2libGUlMjBEYXRhJTIwU2NpZW5jZQ==">Reproucible Data Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UnN0dWRpbyUyMENvZGluZw==">Rstudio Coding <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbg==">Administrating Data Collection <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q2lycmljdWx1bSUyMERldmVsb3BtZW50">Cirriculum Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2l0aXplbi1DZW50ZXJlZCUyMEFJ">Citizen-Centered AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGF0YSUyMEV4dHJhcG9sYXRpb24=">Data Extrapolation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RW52aXJvbm1lbnRhbCUyMENhcmU=">Environmental Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGFja2F0aG9u">Hackathon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9uJTIwQ29kaW5n">Python Coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhbGl0YXRpdmUlMjBEYXRhJTIwQW5hbHlzaXM=">Qualitative Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhbnRpdGF0aXZlJTIwRGF0YSUyMEFuYWx5c2lz">Quantitative Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm91Y2libGUlMjBEYXRhJTIwU2NpZW5jZQ==">Reproucible Data Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UnN0dWRpbyUyMENvZGluZw==">Rstudio Coding <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -227,6 +227,12 @@ window.Quarto = {
       <option value="listing-title" data-direction="asc">
         Title
       </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
       <option value="listing-author" data-direction="asc">
         Author
       </option>
@@ -238,7 +244,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q2l0aXplbi1DZW50ZXJlZCUyMEFJJTJDRW52aXJvbm1lbnRhbCUyMENhcmUlMkNRdWFsaXRhdGl2ZSUyMERhdGElMjBBbmFseXNpcw==" data-listing-file-modified-sort="1764306162600" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
+<div class="g-col-1" data-index="0" data-categories="Q2l0aXplbi1DZW50ZXJlZCUyMEFJJTJDRW52aXJvbm1lbnRhbCUyMENhcmUlMkNRdWFsaXRhdGl2ZSUyMERhdGElMjBBbmFseXNpcw==" data-listing-date-sort="1750651200000" data-listing-file-modified-sort="1766563642285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
 <a href="./projects/civic_care_project/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -258,17 +264,20 @@ Understanding and Facilitating Civic Care in Stanley
 
 </div>
 <div class="card-text listing-description delink">
-From May to July 2025, I participated in the IRES REU: Citizen-Centered AI Summer Research Program. In this program, I worked alongside a cohort of seven students ranging…
+From May to June 2025, I participated in the IRES REU: Citizen-Centered AI Summer Research Program. In this program, I worked alongside a cohort of seven students ranging…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+Jun 23, 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UnN0dWRpbyUyMENvZGluZyUyQ0RhdGElMjBFeHRyYXBvbGF0aW9u" data-listing-file-modified-sort="1763993066233" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+<div class="g-col-1" data-index="1" data-categories="UnN0dWRpbyUyMENvZGluZw==" data-listing-date-sort="1734411600000" data-listing-file-modified-sort="1766563502240" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
 <a href="./projects/understanding_happiness/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="projects/understanding_happiness/ggplot_happy.gif" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -280,21 +289,22 @@ Understanding World Happiness
 
 <div class="listing-category" onclick="window.quartoListingCategory('UnN0dWRpbyUyMENvZGluZw=='); return false;">Rstudio Coding</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEV4dHJhcG9sYXRpb24='); return false;">Data Extrapolation</div>
-
 </div>
 <div class="card-text listing-description delink">
 What is the significance of happiness in our current society and what factors contribute to making us happy? How can we measure happiness and better understand it? Happiness…<br>
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+Dec 17, 2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbg==" data-listing-file-modified-sort="1764030595648" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
+<div class="g-col-1" data-index="2" data-categories="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbg==" data-listing-date-sort="1722571200000" data-listing-file-modified-sort="1766562732012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
 <a href="./projects/mappingaccessibilitydefects/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -312,15 +322,18 @@ Understanding Website Accessibility
 <div class="card-text listing-description delink">
 One of the projects that I worked on with professor Markram Soui of the University of Michigan-Flint and Ms.&nbsp;Nesrine Mansouri, a University of Michigan-Flint doctoral…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+Aug 2, 2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UnN0dWRpbyUyMENvZGluZyUyQ0RhdGElMjBFeHRyYXBvbGF0aW9u" data-listing-file-modified-sort="1763994419322" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="g-col-1" data-index="3" data-categories="UnN0dWRpbyUyMENvZGluZyUyQ0RhdGElMjBFeHRyYXBvbGF0aW9u" data-listing-date-sort="1746936000000" data-listing-file-modified-sort="1766562636734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <a href="./projects/understanding_gentrification/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="projects/understanding_gentrification/graph.png" alt="Graph depicting Gentrification vs. Greenness with a slight correlation between the variables" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -338,15 +351,18 @@ Understanding Green Gentrification
 <div class="card-text listing-description delink">
 Cities’ recent decision to address climate change through urban greening initiatives, has led to concerns of potential green gentrification. Green gentrification describes…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+May 11, 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbiUyQ0RhdGElMjBFeHRyYXBvbGF0aW9uJTJDUnN0dWRpbyUyMENvZGluZw==" data-listing-file-modified-sort="1763993527857" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
+<div class="g-col-1" data-index="4" data-categories="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbiUyQ0RhdGElMjBFeHRyYXBvbGF0aW9uJTJDUnN0dWRpbyUyMENvZGluZw==" data-listing-date-sort="1746936000000" data-listing-file-modified-sort="1766562818393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
 <a href="./projects/SurveyDataCollection/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -368,15 +384,18 @@ So you think you recycle?
 <div class="card-text listing-description delink">
 Do you or a lot of the people you know, recycle? Do you recycle batteries and/or metal scraps? Do you compost food scraps? If you do, do you have to <em>pay</em> to recycle these…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+May 11, 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbiUyQ1B5dGhvbiUyMENvZGluZyUyQ01hY2hpbmUlMjBMZWFybmluZw==" data-listing-file-modified-sort="1764008958584" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
+<div class="g-col-1" data-index="5" data-categories="QWRtaW5pc3RyYXRpbmclMjBEYXRhJTIwQ29sbGVjdGlvbiUyQ1B5dGhvbiUyMENvZGluZyUyQ01hY2hpbmUlMjBMZWFybmluZw==" data-listing-date-sort="1722571200000" data-listing-file-modified-sort="1766562771544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
 <a href="./projects/mappingcodequality/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -398,15 +417,18 @@ Mapping Code Quality
 <div class="card-text listing-description delink">
 A project that I worked on with professor Marouane Kessentini of the University of Michigan-Flint and Mr.&nbsp;Mohamed Almukhtar, a University of Michigan-Flint doctoral student…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+Aug 2, 2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="RWxlbWVudGFyeSUyMEVkdWNhdGlvbiUyQ0NpcnJpY3VsdW0lMjBEZXZlbG9wbWVudCUyQ0NpdGl6ZW4tQ2VudGVyZWQlMjBBSQ==" data-listing-file-modified-sort="1764015224553" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="g-col-1" data-index="6" data-categories="Q2lycmljdWx1bSUyMERldmVsb3BtZW50JTJDQ2l0aXplbi1DZW50ZXJlZCUyMEFJ" data-listing-date-sort="1750651200000" data-listing-file-modified-sort="1766563740690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
 <a href="./projects/yras_misinfo_disinfo/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -418,25 +440,26 @@ Bridging AI Literacy Gaps in YRAS Populations
 </h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('RWxlbWVudGFyeSUyMEVkdWNhdGlvbg=='); return false;">Elementary Education</div>
-
 <div class="listing-category" onclick="window.quartoListingCategory('Q2lycmljdWx1bSUyMERldmVsb3BtZW50'); return false;">Cirriculum Development</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('Q2l0aXplbi1DZW50ZXJlZCUyMEFJ'); return false;">Citizen-Centered AI</div>
 
 </div>
 <div class="card-text listing-description delink">
-From May to July 2025, I participated in the IRES REU: Citizen-Centered AI Summer Research Program. In this program, I worked alongside a cohort of seven students ranging…
+From May to June 2025, I participated in the IRES REU: Citizen-Centered AI Summer Research Program. In this program, I worked alongside a cohort of seven students ranging…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+Jun 23, 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="UmVwcm91Y2libGUlMjBEYXRhJTIwU2NpZW5jZSUyQ0hhY2thdGhvbiUyQ1F1YW50aXRhdGl2ZSUyMERhdGElMjBBbmFseXNpcw==" data-listing-file-modified-sort="1764309177435" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
+<div class="g-col-1" data-index="7" data-categories="UmVwcm91Y2libGUlMjBEYXRhJTIwU2NpZW5jZSUyQ0hhY2thdGhvbiUyQ1F1YW50aXRhdGl2ZSUyMERhdGElMjBBbmFseXNpcw==" data-listing-date-sort="1762056000000" data-listing-file-modified-sort="1766563107992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
 <a href="./projects/WASH_hackathon/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -458,9 +481,12 @@ Advocating for Proper Water, Sanitation and Hygiene Facilities Globally
 <div class="card-text listing-description delink">
 From August to November 2025, I had the privilege of virtually participating in the FAIR Forward 2025 Workshop &amp; Hackathon Series, a program designed to build future data…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
+</div>
+<div class="listing-date">
+Nov 2, 2025
 </div>
 </div>
 </div>
